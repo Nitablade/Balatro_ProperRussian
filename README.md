@@ -27,3 +27,9 @@ RU:
 ![20240312000145_1](https://github.com/Nitablade/Balatro_ProperRussian/assets/109508685/b5b94381-34af-4266-b829-58c6b0571b80)
 
 ### Поблагодарить автора локализации можно тут: [https://www.twitch.tv/Nitablade](https://www.twitch.tv/Nitablade)
+
+Помимо Balatro, я занималась переводом таких игр как:
+1) [**BEAM**](https://store.steampowered.com/app/1067430/Beam/)
+2) [**Backpack Hero**](https://store.steampowered.com/app/1970580/Backpack_Hero/)
+3) [**Мод Downfall**](https://steamcommunity.com/sharedfiles/filedetails/?id=1610056683&searchtext=Downfall) для Slay the Spire
+4) [**Wildfrost**](https://store.steampowered.com/app/1811990/Wildfrost/) (Релиз перевода уже скоро)

@@ -11,7 +11,7 @@ RU:
 
 ## Как установить:
 1. Скачать и установить по гайду [мод-лаунчер **Steammoded**](https://github.com/Steamopollys/Steamodded)
-2. Скачать архив последней доступной версии из вкладки Releases справа -->
+2. Скачать архив последней доступной версии из вкладки [Releases](https://github.com/Nitablade/Balatro_ProperRussian/releases)
 3. Комбинацией клавиш Win+R вызвать утилиту "Выполнить" - в ней ввести **%appdata%**, чтобы перейти в папку \Users\%ИмяПользователя%\AppData\Roaming - далее в папке Balatro создать (если ещё нет) под-папку **Mods**
 4. С помощью WinRAR или любого другого архиватора - распаковать содержимое архива в папку Mods
 ![image](https://github.com/Nitablade/Balatro_ProperRussian/assets/109508685/d43bcc0e-b3c2-4cc6-930a-38ad98485d25)

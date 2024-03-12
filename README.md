@@ -1,11 +1,11 @@
 # Balatro_ProperRussian (by Nitablade)
 EN:
 
-This is my own Russian localization for Balatro (game version 1.0.0n)
+This is my own Russian localization for Balatro (game version 1.0.0n-FULL)
 
 RU:
 ## Краткое описание:
-Это моя авторская локализация на русский язык для Balatro.
+Это моя авторская локализация на русский язык для Balatro (версия игры 1.0.0n-FULL).
 
 ## Зачем, если русский язык уже есть в игре?
 

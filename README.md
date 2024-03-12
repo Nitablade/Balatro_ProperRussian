@@ -24,6 +24,7 @@ RU:
 2. Использовать [Lovely-инжектор](https://github.com/ethangreen-dev/lovely-injector/releases) (уже есть в архиве): файл ```dwmapi.dll``` закинуть в папку с игрой (пример: ```\Program Files\Steam\steamapps\common\Balatro```)
 3. Комбинацией клавиш ```Win+R``` вызвать утилиту "Выполнить" - в ней ввести ```%appdata%```, чтобы перейти в папку ```\Users\%ИмяПользователя%\AppData\Roaming\```
 4. С помощью WinRAR или любого другого архиватора - распаковать все остальные файлы в папку ```\AppData\Roaming\Balatro\```
+![image](https://github.com/Nitablade/Balatro_ProperRussian/assets/109508685/2b936a3e-3751-480c-9a0e-ead88eac2a21)
 5. Запустить игру из Steam
 
 ## Установка (Только если вы используете Steamodded):

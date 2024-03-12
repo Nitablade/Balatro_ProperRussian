@@ -38,7 +38,7 @@ RU:
 ![20240310191539_1](https://github.com/Nitablade/Balatro_ProperRussian/assets/109508685/7b9a8354-f522-4400-a689-ee5e79a63219)
 ![20240312000145_1](https://github.com/Nitablade/Balatro_ProperRussian/assets/109508685/b5b94381-34af-4266-b829-58c6b0571b80)
 
-### Поблагодарить автора локализации можно тут: [https://www.twitch.tv/Nitablade](https://www.twitch.tv/Nitablade)
+### Выразить благодарность автору локализации можно тут: [https://www.twitch.tv/Nitablade](https://www.twitch.tv/Nitablade)
 
 Помимо Balatro, я занималась переводом таких игр как:
 1) [**BEAM**](https://store.steampowered.com/app/1067430/Beam/)

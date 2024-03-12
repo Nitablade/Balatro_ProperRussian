@@ -19,23 +19,13 @@ RU:
 
 В моде также заменён шрифт на **Mini Pixel 7**, не стремясь повторить оригинальный, но пиксельный, хорошо читабельный и вписывающийся в сеттинг. При желании, шрифт можно заменить на любой другой. Для этого в папке с установленным модом, замените файл шрифта на нужный вам, переименовав его в ```NotoSans-Bold.ttf```.
 
-## Установка (без лаунчера):
+## Как установить:
 1. Скачать архив последней доступной версии из вкладки [Releases](https://github.com/Nitablade/Balatro_ProperRussian/releases)
 2. Использовать [Lovely-инжектор](https://github.com/ethangreen-dev/lovely-injector/releases) (уже есть в архиве): файл ```dwmapi.dll``` закинуть в папку с игрой (пример: ```\Program Files\Steam\steamapps\common\Balatro```)
 3. Комбинацией клавиш ```Win+R``` вызвать утилиту "Выполнить" - в ней ввести ```%appdata%```, чтобы перейти в папку ```\Users\%ИмяПользователя%\AppData\Roaming\```
 4. С помощью WinRAR или любого другого архиватора - распаковать все остальные файлы в папку ```\AppData\Roaming\Balatro\```
 
 ![image](https://github.com/Nitablade/Balatro_ProperRussian/assets/109508685/2b936a3e-3751-480c-9a0e-ead88eac2a21)
-
-5. Запустить игру из Steam
-
-## Установка (Только если вы используете Steamodded):
-1. У вас уже должен быть установлен [мод-лаунчер **Steamodded**](https://github.com/Steamopollys/Steamodded)
-2. Скачать архив последней доступной версии из вкладки [Releases](https://github.com/Nitablade/Balatro_ProperRussian/releases)
-3. Комбинацией клавиш ```Win+R``` вызвать утилиту "Выполнить" - в ней ввести **%appdata%**, чтобы перейти в папку ```\Users\%ИмяПользователя%\AppData\Roaming``` - далее в папке Balatro создать (если ещё нет) под-папку ```Mods```
-4. С помощью WinRAR или любого другого архиватора - распаковать содержимое архива в папку ```Mods```
-
-![image](https://github.com/Nitablade/Balatro_ProperRussian/assets/109508685/d43bcc0e-b3c2-4cc6-930a-38ad98485d25)
 
 5. Запустить игру из Steam
 

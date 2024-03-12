@@ -26,6 +26,7 @@ RU:
 4. С помощью WinRAR или любого другого архиватора - распаковать все остальные файлы в папку ```\AppData\Roaming\Balatro\```
 
 ![image](https://github.com/Nitablade/Balatro_ProperRussian/assets/109508685/2b936a3e-3751-480c-9a0e-ead88eac2a21)
+
 5. Запустить игру из Steam
 
 ## Установка (Только если вы используете Steamodded):

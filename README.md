@@ -30,13 +30,13 @@ RU:
 5. Запустить игру из Steam
 
 ## Ниже немного скриншотов
-![20240310191240_1](https://github.com/Nitablade/Balatro_ProperRussian/assets/109508685/8236fe84-7259-47f6-b9a7-7d194ba15195)
-![20240310191524_1](https://github.com/Nitablade/Balatro_ProperRussian/assets/109508685/02724e7a-da85-4ee8-9e7d-80c1d0bcaae8)
-![20240310191648_1](https://github.com/Nitablade/Balatro_ProperRussian/assets/109508685/6f63459f-451c-4271-a478-c9e03668674f)
-![20240310191625_1](https://github.com/Nitablade/Balatro_ProperRussian/assets/109508685/eeb729fc-3d44-4eb0-a695-ebae7c23eea2)
-![20240310191610_1](https://github.com/Nitablade/Balatro_ProperRussian/assets/109508685/d93e822e-47fb-407c-94e4-844bf164b654)
-![20240310191539_1](https://github.com/Nitablade/Balatro_ProperRussian/assets/109508685/7b9a8354-f522-4400-a689-ee5e79a63219)
-![20240312000145_1](https://github.com/Nitablade/Balatro_ProperRussian/assets/109508685/b5b94381-34af-4266-b829-58c6b0571b80)
+![20240312205207_1](https://github.com/Nitablade/Balatro_ProperRussian/assets/109508685/4108fc39-df24-4842-8254-63011a284b23)
+![20240310191625_1](https://github.com/Nitablade/Balatro_ProperRussian/assets/109508685/c3225960-1cd4-4863-a942-d582c8985e09)
+![20240310191610_1](https://github.com/Nitablade/Balatro_ProperRussian/assets/109508685/7cfb70ff-26c2-493d-bcc5-2c34c5a68ee4)
+![20240310191539_1](https://github.com/Nitablade/Balatro_ProperRussian/assets/109508685/8797c190-7ce1-4f95-b66e-e6ed716a83f4)
+![20240310191524_1](https://github.com/Nitablade/Balatro_ProperRussian/assets/109508685/ec4a20e2-0353-49b9-9838-e647361e2ec6)
+![20240310191648_1](https://github.com/Nitablade/Balatro_ProperRussian/assets/109508685/572e28fc-fc1e-47e0-864d-e119664fde50)
+
 
 ### Выразить благодарность автору локализации можно тут: [https://www.twitch.tv/Nitablade](https://www.twitch.tv/Nitablade)
 

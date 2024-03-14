@@ -49,3 +49,5 @@ RU:
 2) [**Backpack Hero**](https://store.steampowered.com/app/1970580/Backpack_Hero/)
 3) [**Мод Downfall**](https://steamcommunity.com/sharedfiles/filedetails/?id=1610056683&searchtext=Downfall) для Slay the Spire
 4) [**Wildfrost**](https://store.steampowered.com/app/1811990/Wildfrost/) (Релиз перевода уже скоро)
+
+Также можете присоединиться к моему [Discord-серверу](https://discord.gg/zFAGDn6QMs), чтобы следить за обновлениями локализаций.

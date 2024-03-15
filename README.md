@@ -23,7 +23,7 @@ RU:
 1. Скачать архив последней доступной версии из вкладки [Releases](https://github.com/Nitablade/Balatro_ProperRussian/releases)
 2. Файл ```dwmapi.dll``` (это [Lovely-инжектор](https://github.com/ethangreen-dev/lovely-injector/releases)) закинуть в папку с игрой (пример: ```\Program Files\Steam\steamapps\common\Balatro```)
 3. Комбинацией клавиш ```Win+R``` вызвать утилиту "Выполнить" - в ней ввести ```%appdata%```, чтобы перейти в папку ```\AppData\Roaming\```
-4. С помощью WinRAR или любого другого архиватора - распаковать все остальные файлы в папку ```\AppData\Roaming\Balatro\```
+4. Распаковать все остальные папки (mods, localization, resources) в папку ```\AppData\Roaming\Balatro\```
 
 ![image](https://github.com/Nitablade/Balatro_ProperRussian/assets/109508685/2b936a3e-3751-480c-9a0e-ead88eac2a21)
 

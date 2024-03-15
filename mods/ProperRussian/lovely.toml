@@ -1,0 +1,58 @@
+[manifest]
+version = "0.1"
+dump_lua = false
+priority = 0
+
+[[patches]]
+[patches.pattern]
+target = "game.lua"
+pattern = '''{file = "resources/fonts/NotoSans-Bold.ttf", render_scale = self.TILESIZE*7, TEXT_HEIGHT_SCALE = 0.65, TEXT_OFFSET = {x=0,y=-40}, FONTSCALE = 0.12, squish = 1, DESCSCALE = 1},'''
+position = "at"
+payload = '''{file = "resources/fonts/NotoSans-Bold.ttf", render_scale = self.TILESIZE*10, TEXT_HEIGHT_SCALE = 0.65, TEXT_OFFSET = {x=0,y=-40}, FONTSCALE = 0.13, squish = 1, DESCSCALE = 1},'''
+overwrite = true
+match_indent = true
+
+[[patches]]
+[patches.pattern]
+target = "globals.lua"
+pattern = "VERSION = VERSION..'-FULL'"
+position = "after"
+payload = "VERSION = VERSION..' (Локализация от Nitablade, v1.0)'"
+overwrite = false
+match_indent = true
+
+[[patches]]
+[patches.pattern]
+target = "globals.lua"
+pattern = '''{file = "resources/textures/1x/Vouchers.png"},'''
+position = "at"
+payload = '''{file = "resources/textures/1x/Vouchers.png"},'''
+overwrite = true
+match_indent = true
+
+[[patches]]
+[patches.pattern]
+target = "globals.lua"
+pattern = '''{file = "resources/textures/2x/Vouchers.png"},'''
+position = "at"
+payload = '''{file = "resources/textures/2x/Vouchers.png"},'''
+overwrite = true
+match_indent = true
+
+[[patches]]
+[patches.pattern]
+target = "globals.lua"
+pattern = '''{file = "resources/textures/1x/Tarots.png"},'''
+position = "at"
+payload = '''{file = "resources/textures/1x/Tarots.png"},'''
+overwrite = true
+match_indent = true
+
+[[patches]]
+[patches.pattern]
+target = "globals.lua"
+pattern = '''{file = "resources/textures/2x/Tarots.png"},'''
+position = "at"
+payload = '''{file = "resources/textures/2x/Tarots.png"},'''
+overwrite = true
+match_indent = true

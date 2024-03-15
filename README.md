@@ -14,6 +14,7 @@ RU:
 - Единый стиль написания, везде где это возможно
 - Исправления некорректных кейвордов по типу "Получает", "Даёт" и т.д.
 - Использование буквы "ё" в строках
+- Добавлены русифицированные текстуры для всех купонов, карт планет, карт Таро и Спектральных карт
 - Дополнительная неочевидная информация в описании некоторых карт, имеющаяся только на офф. Вики игры
 - Локализация не следует точь-в-точь написанию в английской версии, а призвана быть максимально простой и хорошо читаемой
 
@@ -34,12 +35,13 @@ RU:
 Спасибо.
 
 ## Ниже немного скриншотов
-![20240312205207_1](https://github.com/Nitablade/Balatro_ProperRussian/assets/109508685/4108fc39-df24-4842-8254-63011a284b23)
-![20240310191625_1](https://github.com/Nitablade/Balatro_ProperRussian/assets/109508685/c3225960-1cd4-4863-a942-d582c8985e09)
-![20240310191610_1](https://github.com/Nitablade/Balatro_ProperRussian/assets/109508685/7cfb70ff-26c2-493d-bcc5-2c34c5a68ee4)
-![20240310191539_1](https://github.com/Nitablade/Balatro_ProperRussian/assets/109508685/8797c190-7ce1-4f95-b66e-e6ed716a83f4)
-![20240310191524_1](https://github.com/Nitablade/Balatro_ProperRussian/assets/109508685/ec4a20e2-0353-49b9-9838-e647361e2ec6)
-![20240310191648_1](https://github.com/Nitablade/Balatro_ProperRussian/assets/109508685/572e28fc-fc1e-47e0-864d-e119664fde50)
+![20240316025200_1](https://github.com/Nitablade/Balatro_ProperRussian/assets/109508685/3fac5421-d2c0-4f40-a289-5a7a05c67f4d)
+![20240316025222_1](https://github.com/Nitablade/Balatro_ProperRussian/assets/109508685/ef943bab-b783-4785-a788-8c09997a7c59)
+![20240316025242_1](https://github.com/Nitablade/Balatro_ProperRussian/assets/109508685/59e30528-609e-429e-87b1-231aaaa9cf05)
+![20240316030037_1](https://github.com/Nitablade/Balatro_ProperRussian/assets/109508685/62d62d4b-9cb1-4a0f-a75b-8e91e34a24d6)
+![20240310191524_1](https://github.com/Nitablade/Balatro_ProperRussian/assets/109508685/dc11da1a-1d7c-4db1-aa73-f1e7ed8eac49)
+![20240310191610_1](https://github.com/Nitablade/Balatro_ProperRussian/assets/109508685/d8703b49-d8a4-4c24-b376-4cd565a7286c)
+![20240310191648_1](https://github.com/Nitablade/Balatro_ProperRussian/assets/109508685/dd63f766-0731-4807-b8b3-7f76a31670fb)
 
 
 ### Выразить благодарность автору локализации можно тут: [https://www.twitch.tv/Nitablade](https://www.twitch.tv/Nitablade)

@@ -1,4 +1,4 @@
-# Balatro_ProperRussian (by Nitablade)
+# Balatro ProperRussian (by Nitablade)
 EN:
 
 This is my own Russian localization for Balatro (game version 1.0.0n-FULL)

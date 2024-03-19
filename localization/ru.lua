@@ -257,7 +257,7 @@ return {
             j_chaos = {
                 name = "Клоун Хаос",
                 text = {
-                    "{C:attention}+#1#{} бесплатное{C:green}обновление",
+                    "{C:attention}+#1#{} бесплатное {C:green}обновление",
                     "в каждом магазине"
                 }
             },			
@@ -534,7 +534,7 @@ return {
             j_mr_bones = {
                 name = "Костлявый",
                 text = {
-                    "Предотвращает смерть,",
+                    "Предотвращает проигрыш,",
                     "если набрано как минимум",
                     "{C:attention}25% от необходимых фишек{},",
                     "затем {S:1.1,C:red,E:2}самоуничтожается{}"
@@ -571,8 +571,8 @@ return {
             j_green_joker = {
                 name = "Зелёный джокер",
                 text = {
-                    "{C:mult}+#1#{} множ. за каждую сыгранную руку",
-                    "{C:mult}-#2#{} множ. за каждый сброс",
+                    "Получает {C:mult}+#1#{} множ. за каждую сыгранную руку",
+                    "и {C:mult}-#2#{} множ. за каждый сброс",
                     "{C:inactive}(сейчас: {C:mult}+#3#{C:inactive} множ.)"
                 }
             },
@@ -2649,7 +2649,7 @@ return {
                 }
             },
             bl_ox = {
-                name = "Бык",
+                name = "Буйвол",
                 text = {
                     "Игра комбинации #1#",
                     "устанавливает деньги на $0"
@@ -2826,7 +2826,7 @@ return {
                 text = {
                     "Купоны «{C:tarot,T:v_tarot_merchant}#1#{}»,",
                     "«{C:planet,T:v_planet_merchant}#2#{}»",
-                    "и {C:attention,T:v_overstock_norm}#3#",
+                    "и «{C:attention,T:v_overstock_norm}#3#{}»",
 					"в начале партии"
                 }
             },
@@ -3409,9 +3409,9 @@ return {
             c_jokerless_1 = "Без джокеров",
         },
         poker_hands = {
-            ['Flush Five'] = "Флеш-пять",
+            ['Flush Five'] = "Покер-флеш",
 			['Flush House'] = "Флеш-хаус",
-            ['Five of a Kind'] = "Пять-в-ряд",
+            ['Five of a Kind'] = "Покер",
             ['Royal Flush'] = "Флеш-рояль",
             ['Straight Flush'] = "Стрит-флеш",
             ['Four of a Kind'] = "Каре",
@@ -3513,8 +3513,8 @@ return {
             b_skip_blind = "Пропустить блайнд",
             b_skip_reward = "Пропустить награду",
             b_skip = "Пропуcтить",
-            b_start_new_run = "Начать новую партию",
-            b_main_menu = "В главное меню",
+            b_start_new_run = " Новая партия ",
+            b_main_menu = " В главное меню ",
             b_collection = "Коллекция",
             b_seed = "Сид",
             b_copy_seed = "Копировать сид",
@@ -3573,7 +3573,7 @@ return {
             b_music = "Музыка",
             b_sounds = "Звуки",
             b_imagery = "Изображения",
-            b_new_run = "Новая партия",
+            b_new_run = " Новая партия ",
             b_challenges = "Испытания",
             b_new_challenge = "Начать новое испытание",
             b_current_profile = "Текущий профиль",
@@ -3681,7 +3681,7 @@ return {
             k_card_stats = "Статистика карт",
             k_balanced = "Усреднение",
             k_view = "Ваша",
-            k_all_hands = "Все руки",
+            k_all_hands = "Все комбинации",
             k_high_score_ex = "Рекорд!",
             k_demo_version_ex = "Демоверсия!",
             k_playing_as = "Игра за",
@@ -3824,7 +3824,7 @@ return {
             k_saved_ex = "Сохранено!",
             k_swapped_ex = "Заменено!",
             k_copied_ex = "Скопировано!",
-            k_melted_ex = "Расплавлено!",
+            k_melted_ex = "Растаяло!",
             k_eaten_ex = "Съедено!",
             k_drank_ex = "Выпито!",
             k_eroded_ex = "Разрушено!",

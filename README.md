@@ -21,14 +21,8 @@ RU:
 В моде также заменён шрифт на **Mini Pixel 7**, не стремясь повторить оригинальный, но пиксельный, хорошо читабельный и вписывающийся в сеттинг. При желании, шрифт можно заменить на любой другой. Для этого в папке с установленным модом, замените файл шрифта на нужный вам, переименовав его в ```NotoSans-Bold.ttf```.
 
 ## Как установить:
-1. Скачать архив последней доступной версии из вкладки [Releases](https://github.com/Nitablade/Balatro_ProperRussian/releases)
-2. Файл ```dwmapi.dll``` (это [Lovely-инжектор](https://github.com/ethangreen-dev/lovely-injector/releases)) закинуть в папку с игрой (пример: ```\Program Files\Steam\steamapps\common\Balatro```)
-3. Комбинацией клавиш ```Win+R``` вызвать утилиту "Выполнить" - в ней ввести ```%appdata%```, чтобы перейти в папку ```\AppData\Roaming\```
-4. Распаковать все остальные папки (mods, localization, resources) в папку ```\AppData\Roaming\Balatro\```
+Подробный гайд на странице [Releases](https://github.com/Nitablade/Balatro_ProperRussian/releases)
 
-![image](https://github.com/Nitablade/Balatro_ProperRussian/assets/109508685/2b936a3e-3751-480c-9a0e-ead88eac2a21)
-
-5. Запустить игру из Steam. Вместе с ней откроется Lovely (консоль для включения мода).
 
 Если не сложно, оставьте какую-нибудь реакцию и/или комментарий под этим постом для продвижения: (сначала присоединитесь к [офф. серверу Balatro](https://discord.gg/cbbuVAU9)): [https://discord.com/channels/1116389027176787968/1217140107962748949/1217140107962748949](https://discord.com/channels/1116389027176787968/1217140107962748949/1217140107962748949)
 

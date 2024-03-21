@@ -25,10 +25,15 @@ RU:
 ## Как установить:
 Подробный гайд на странице [Releases](https://github.com/Nitablade/Balatro_ProperRussian/releases)
 
-
 Если не сложно, оставьте какую-нибудь реакцию и/или комментарий под этим постом для продвижения: (сначала присоединитесь к [офф. серверу Balatro](https://discord.gg/cbbuVAU9)): [https://discord.com/channels/1116389027176787968/1217140107962748949/1217140107962748949](https://discord.com/channels/1116389027176787968/1217140107962748949/1217140107962748949)
 
 Спасибо.
+
+## Если вы хотите установить локализацию на SteamDeck:
+Установка происходит точно так же, как на Windows, отличаются только пути для распаковки файлов. А именно, .dll файл:
+- Если игра установлена на SD-карте: ```primary/steamapps/common/Balatro```
+- Если игра установлена во Внутренней памяти: ```Home/.steam/steam/steamapps/common/Balatro```
+Папка **Appdata** находится по пути: ```Home/.steam/steam/steamapps/compatdata/2379780/pfx/drive_c/users/steamuser/AppData/Roaming/Balatro```
 
 ## Ниже немного скриншотов
 ![20240316025200_1](https://github.com/Nitablade/Balatro_ProperRussian/assets/109508685/3fac5421-d2c0-4f40-a289-5a7a05c67f4d)

@@ -33,6 +33,7 @@ RU:
 Установка происходит точно так же, как на Windows, отличаются только пути для распаковки файлов. А именно, .dll файл:
 - Если игра установлена на SD-карте: ```primary/steamapps/common/Balatro```
 - Если игра установлена во Внутренней памяти: ```Home/.steam/steam/steamapps/common/Balatro```
+  
 Папка **Appdata** находится по пути: ```Home/.steam/steam/steamapps/compatdata/2379780/pfx/drive_c/users/steamuser/AppData/Roaming/Balatro```
 
 ## Ниже немного скриншотов

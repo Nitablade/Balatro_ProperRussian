@@ -234,7 +234,7 @@ return {
                 text = {
                     "{X:red,C:white} X#1# {} множ. для каждой",
                     "{C:attention}#2#-ой{} сыгранной руки",
-                    "{C:inactive}#3#"
+                    "{C:inactive}(#3#)"
                 }
             },
             j_8_ball = {
@@ -672,7 +672,7 @@ return {
                     "Имеет шанс {C:green}#1# к #2#{}",
                     "для сыгранных карт",
                     "с мастью {C:hearts}Червы{}",
-                    "дать {X:mult,C:white} X#3# {} множ. при подсчёте,"
+                    "дать {X:mult,C:white} X#3# {} множ. при подсчёте"
                 },
                 unlock = {
                     "Держите в колоде",
@@ -838,7 +838,7 @@ return {
                 text = {
                     "Получает {X:mult,C:white} X#1# {} множ.",
                     "за каждого сброшенного",
-                    "{C:attention}Валета{} в этом раунде",
+                    "{C:attention}Валета{} в текущем раунде",
                     "{C:inactive}(сейчас: {X:mult,C:white} X#2# {C:inactive} множ.)"
                 },
                 unlock = {
@@ -1638,12 +1638,12 @@ return {
                 text = {
                     "{C:spectral}Спектральные{} карты могут",
                     "появляться в любых",
-                    "{C:attention}Гадальных наборах"
+                    "{C:attention}Наборах аркана"
                 },
                 unlock = {
                     "Используйте суммарно",
                     "{C:attention}#1#{} карт {C:tarot}Таро{} из любых",
-                    "{C:tarot}Гадальных наборов",
+                    "{C:tarot}Наборов аркана",
                     "{C:inactive}(#2#)"
                 }
             },
@@ -1906,7 +1906,7 @@ return {
                 text = {
                     "Меняет масть",
 					"до {C:attention}#1#{} выбранных карт",
-                    "на {V:1}#2#{}"
+                    "на {V:1}Бубны{}"
                 }
             },
             c_moon = {
@@ -1914,7 +1914,7 @@ return {
                 text = {
                     "Меняет масть",
 					"до {C:attention}#1#{} выбранных карт",
-                    "на {V:1}#2#{}"
+                    "на {V:1}Трефы{}"
                 }
             },
             c_sun = {
@@ -1922,7 +1922,7 @@ return {
                 text = {
                     "Меняет масть",
 					"до {C:attention}#1#{} выбранных карт",
-                    "на {V:1}#2#{}"
+                    "на {V:1}Червы{}"
                 }
             },
             c_judgement = {
@@ -1938,7 +1938,7 @@ return {
                 text = {
                     "Меняет масть",
 					"до {C:attention}#1#{} выбранных карт",
-                    "на {V:1}#2#{}"
+                    "на {V:1}Пики{}"
                 }
             }
         },
@@ -3508,9 +3508,9 @@ return {
             b_sort_hand = "Сортировка руки",
             b_run_info_1 = "Детали",
             b_run_info_2 = "партии",
-            b_options = "Настройки",
+            b_options = "Параметры",
             b_reroll_boss = "Обновить босс-блайнд",
-            b_skip_blind = "Пропустить блайнд",
+            b_skip_blind = "Пропустить",
             b_skip_reward = "Пропустить награду",
             b_skip = "Пропуcтить",
             b_start_new_run = " Новая партия ",
@@ -3527,7 +3527,7 @@ return {
             b_set_graphics = "Графика",
             b_set_audio = "Аудио",
             b_set_gamespeed = "Скорость игры",
-            b_set_play_discard_pos = "Положение кнопок «Играть/Сбросить»",
+            b_set_play_discard_pos = "Положение кнопок «Сыграть руку/Сбросить»",
             b_set_screenshake = "Тряска экрана",
 			b_high_contrast_cards = "Повышенный контраст для карт",
             b_set_rumble = "Вибрация контроллера",
@@ -3562,7 +3562,7 @@ return {
             b_tarot_cards = "Карты Таро",
             b_planet_cards = "Карты планет",
             b_spectral_cards = "Спектральные карты",
-            b_enhanced_cards = "Улучшенные карты",
+            b_enhanced_cards = "Улучшения карт",
             b_editions = "Издания",
             b_booster_packs = "Бустерные наборы",
             b_tags = "Жетоны",
@@ -3613,7 +3613,7 @@ return {
             k_voucher = "Купон",
             k_tarot = "Таро",
             k_planet = "Планета",
-            k_deck = "колода",
+            k_deck = "Колода",
             k_dwarf_planet = "Карликовая планета",
             k_planet_q = "Планета?",
             k_spectral = "Спектральная",
@@ -3674,13 +3674,13 @@ return {
             k_no_reward = "Без наград",
             k_reward = "Награда",
             k_nope_ex = "Не-а!",
-			k_not_allowed_ex = "Так нельзя!",
+			k_not_allowed_ex = "Не считается!",
             k_or = "или",
             k_poker_hand = "покерную комбинацию",
             k_gold = "Золото",
             k_card_stats = "Статистика карт",
             k_balanced = "Усреднение",
-            k_view = "Ваша",
+            k_view = "Просмотреть",
             k_all_hands = "Все комбинации",
             k_high_score_ex = "Рекорд!",
             k_demo_version_ex = "Демоверсия!",
@@ -3721,7 +3721,7 @@ return {
             ph_1_level = "+1 ур.",
             ph_boss_disabled = "Босс отключён!",
             ph_most_played = "{наиболее часто играемая рука}",
-            ph_defeat_the_boss = "Победить Босс-блайнд",
+            ph_defeat_the_boss = "Победите Босс-блайнд",
             ph_score_furthest_ante = "Анте",
             ph_score_furthest_round = "Раунд",
             ph_score_hand = "Лучшая рука",
@@ -3763,8 +3763,8 @@ return {
                 "Безрамочный"
             },
             ml_vsync_opt = {
-                "Вертикальная синхронизация: Вкл.",
-                "Вертикальная синхронизация: Выкл."
+                "Верт. синхронизация: Вкл.",
+                "Верт. синхронизация: Выкл."
             },
             ml_shadow_opt = {
                 "Вкл.",
@@ -3817,10 +3817,10 @@ return {
             k_level_up_ex = "Уровень повышен!",
             k_upgrade_ex = "Улучшено!",
             k_again_ex = "Ещё раз!",
-            k_val_up = "Значение повышено!",
-            k_reset = "Перезапуск",
+            k_val_up = "Стоимость выросла!",
+            k_reset = "Заново",
             k_extinct_ex = "Исчезло!",
-            k_safe_ex = "Безопасно!",
+            k_safe_ex = "Уцелел!",
             k_saved_ex = "Сохранено!",
             k_swapped_ex = "Заменено!",
             k_copied_ex = "Скопировано!",
@@ -3849,7 +3849,7 @@ return {
             challenges_completed = "Завершено #1#/#2# испытаний",
             unlocked = "Разблокировано: #1#/#2#",
             completed = "Завершено: #1#/#2#",
-            interest = "Бонус. $#1# за каждые $#2# (максимум #3#)",
+            interest = "Бонус за каждые $#2# (макс. $#3#)",
             remaining_hand_money = "Оставшиеся руки ($#1# за каждую)",
             remaining_discard_money = "Оставшиеся сбросы ($#1# за каждый)",
             ml_foil_desc = {

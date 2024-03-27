@@ -15,7 +15,7 @@ RU:
 - Вручную добавлена локализация для строк, изначально не поддерживающих перевод
 - Исправления некорректных кейвордов по типу "Получает", "Даёт" и т.д.
 - Использование буквы "ё" в строках
-- Добавлены русифицированные текстуры для всех купонов, карт планет, карт Таро и Спектральных карт
+- Добавлены русифицированные текстуры для всех купонов, карт планет, карт Таро, Спектральных карт, бустерных наборов и прочего
 - Дополнительная неочевидная информация в описании некоторых карт, имеющаяся только на офф. Вики игры
 - Локализация не следует точь-в-точь написанию в английской версии, а призвана быть максимально простой и хорошо читаемой
 
@@ -34,18 +34,20 @@ RU:
 Установка происходит точно так же, как на Windows, отличаются только пути для распаковки файлов. А именно, .dll файл:
 - Если игра установлена на SD-карте: ```primary/steamapps/common/Balatro```
 - Если игра установлена во Внутренней памяти: ```Home/.steam/steam/steamapps/common/Balatro```
+
+## Как установить (на Mac):
+- Пока неизвестно, за неимением Mac'а, если кто разобрался - напишите мне.
   
 Папка **Appdata** находится по пути: ```Home/.steam/steam/steamapps/compatdata/2379780/pfx/drive_c/users/steamuser/AppData/Roaming/Balatro```
 
 ## Ниже немного скриншотов
-![20240316025200_1](https://github.com/Nitablade/Balatro_ProperRussian/assets/109508685/3fac5421-d2c0-4f40-a289-5a7a05c67f4d)
-![20240316025222_1](https://github.com/Nitablade/Balatro_ProperRussian/assets/109508685/ef943bab-b783-4785-a788-8c09997a7c59)
-![20240316025242_1](https://github.com/Nitablade/Balatro_ProperRussian/assets/109508685/59e30528-609e-429e-87b1-231aaaa9cf05)
-![20240316030037_1](https://github.com/Nitablade/Balatro_ProperRussian/assets/109508685/62d62d4b-9cb1-4a0f-a75b-8e91e34a24d6)
-![20240310191524_1](https://github.com/Nitablade/Balatro_ProperRussian/assets/109508685/dc11da1a-1d7c-4db1-aa73-f1e7ed8eac49)
-![20240310191610_1](https://github.com/Nitablade/Balatro_ProperRussian/assets/109508685/d8703b49-d8a4-4c24-b376-4cd565a7286c)
-![20240310191648_1](https://github.com/Nitablade/Balatro_ProperRussian/assets/109508685/dd63f766-0731-4807-b8b3-7f76a31670fb)
-
+![20240327181314_1](https://github.com/Nitablade/Balatro_ProperRussian/assets/109508685/23ee7f4a-21c3-40d2-a853-b5438f2c7f91)
+![20240327181234_1](https://github.com/Nitablade/Balatro_ProperRussian/assets/109508685/d48b1cdf-ddbc-4f5f-b838-fc087bc46b6a)
+![20240327181211_1](https://github.com/Nitablade/Balatro_ProperRussian/assets/109508685/29c19d05-456c-4ce9-94bc-d9c7133fcd76)
+![20240327181147_1](https://github.com/Nitablade/Balatro_ProperRussian/assets/109508685/2518b2c3-288d-4215-bf55-b067f07e3db3)
+![20240327181107_1](https://github.com/Nitablade/Balatro_ProperRussian/assets/109508685/ba86b08e-e3dc-4fa1-895a-784e33dd32e8)
+![20240327181053_1](https://github.com/Nitablade/Balatro_ProperRussian/assets/109508685/f42e2473-44a9-42c3-83ce-ac0c292c0ab0)
+![20240327181037_1](https://github.com/Nitablade/Balatro_ProperRussian/assets/109508685/749be51a-b923-4833-909f-ae2f6607dafb)
 
 ### Выразить благодарность автору локализации можно тут: [https://www.twitch.tv/Nitablade](https://www.twitch.tv/Nitablade)
 

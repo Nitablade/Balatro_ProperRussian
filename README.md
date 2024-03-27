@@ -40,13 +40,13 @@ RU:
 - Пока неизвестно, за неимением Mac'а, если кто разобрался - напишите мне.
 
 ## Ниже немного скриншотов
-![20240327181314_1](https://github.com/Nitablade/Balatro_ProperRussian/assets/109508685/23ee7f4a-21c3-40d2-a853-b5438f2c7f91)
-![20240327181234_1](https://github.com/Nitablade/Balatro_ProperRussian/assets/109508685/d48b1cdf-ddbc-4f5f-b838-fc087bc46b6a)
-![20240327181211_1](https://github.com/Nitablade/Balatro_ProperRussian/assets/109508685/29c19d05-456c-4ce9-94bc-d9c7133fcd76)
-![20240327181147_1](https://github.com/Nitablade/Balatro_ProperRussian/assets/109508685/2518b2c3-288d-4215-bf55-b067f07e3db3)
-![20240327181107_1](https://github.com/Nitablade/Balatro_ProperRussian/assets/109508685/ba86b08e-e3dc-4fa1-895a-784e33dd32e8)
-![20240327181053_1](https://github.com/Nitablade/Balatro_ProperRussian/assets/109508685/f42e2473-44a9-42c3-83ce-ac0c292c0ab0)
 ![20240327181037_1](https://github.com/Nitablade/Balatro_ProperRussian/assets/109508685/749be51a-b923-4833-909f-ae2f6607dafb)
+![20240327181053_1](https://github.com/Nitablade/Balatro_ProperRussian/assets/109508685/f42e2473-44a9-42c3-83ce-ac0c292c0ab0)
+![20240327181107_1](https://github.com/Nitablade/Balatro_ProperRussian/assets/109508685/ba86b08e-e3dc-4fa1-895a-784e33dd32e8)
+![20240327181147_1](https://github.com/Nitablade/Balatro_ProperRussian/assets/109508685/2518b2c3-288d-4215-bf55-b067f07e3db3)
+![20240327181211_1](https://github.com/Nitablade/Balatro_ProperRussian/assets/109508685/29c19d05-456c-4ce9-94bc-d9c7133fcd76)
+![20240327181234_1](https://github.com/Nitablade/Balatro_ProperRussian/assets/109508685/d48b1cdf-ddbc-4f5f-b838-fc087bc46b6a)
+![20240327181314_1](https://github.com/Nitablade/Balatro_ProperRussian/assets/109508685/23ee7f4a-21c3-40d2-a853-b5438f2c7f91)
 
 ### Выразить благодарность автору локализации можно тут: [https://www.twitch.tv/Nitablade](https://www.twitch.tv/Nitablade)
 

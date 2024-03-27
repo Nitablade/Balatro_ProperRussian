@@ -33,12 +33,11 @@ RU:
 ## Как установить (на SteamDeck):
 Установка происходит точно так же, как на Windows, отличаются только пути для распаковки файлов. А именно, .dll файл:
 - Если игра установлена на SD-карте: ```primary/steamapps/common/Balatro```
-- Если игра установлена во Внутренней памяти: ```Home/.steam/steam/steamapps/common/Balatro```
+- Если игра установлена во Внутренней памяти: ```Home/.steam/steam/steamapps/common/Balatro```  
+Папка **Appdata** находится по пути: ```Home/.steam/steam/steamapps/compatdata/2379780/pfx/drive_c/users/steamuser/AppData/Roaming/Balatro```
 
 ## Как установить (на Mac):
 - Пока неизвестно, за неимением Mac'а, если кто разобрался - напишите мне.
-  
-Папка **Appdata** находится по пути: ```Home/.steam/steam/steamapps/compatdata/2379780/pfx/drive_c/users/steamuser/AppData/Roaming/Balatro```
 
 ## Ниже немного скриншотов
 ![20240327181314_1](https://github.com/Nitablade/Balatro_ProperRussian/assets/109508685/23ee7f4a-21c3-40d2-a853-b5438f2c7f91)

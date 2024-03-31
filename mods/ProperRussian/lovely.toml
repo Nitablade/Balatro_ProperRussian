@@ -95,7 +95,7 @@ match_indent = true
 # Локализация для названий покерных комбинаций при использовании Орбитального жетона
 [[patches]]
 [patches.pattern]
-target = "functions/UI_definitions.lua"
+target = "functions/tag.lua"
 pattern = '''(self.ability.orbital_hand == '['..localize('k_poker_hand')..']') and self.ability.orbital_hand or localize(self.ability.orbital_hand, 'poker_hands'), self.config.levels}'''
 position = "at"
 payload = '''(self.ability.orbital_hand == '['..localize('k_poker_hand')..']') and self.ability.orbital_hand or localize(self.ability.orbital_hand, localize('poker_hands')), self.config.levels}'''

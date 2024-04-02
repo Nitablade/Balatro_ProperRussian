@@ -153,7 +153,7 @@ return {
                 text = {
                     "Все эффекты",
 					"{C:attention}удерживаемых в руке{} карт",
-                    "срабатывают дважды"
+                    "срабатывают ещё раз"
                 }
             },
             j_credit_card = {
@@ -965,7 +965,7 @@ return {
                 }
             },
             j_riff_raff = {
-                name = "Рифф-рафф",
+                name = "Сомнительная компания",
                 text = {
                     "При выборе {C:attention}блайнда{},",
                     "создаёт {C:attention}#1# {C:blue}Обычных{C:attention} джокера",
@@ -1268,16 +1268,16 @@ return {
             j_invisible = {
                 name = "Невидимый джокер",
                 text = {
-                    "Даёт {C:attention}копию{} случ. джокера, раундов",
-                    "при продаже через {C:attention}#1#{} раунда",
-                    "{C:inactive}(сейчас: {C:attention}#2#{C:inactive}/#1#)"
+                    "Добавляет {C:attention}копию{} случ. джокера,",
+                    "при продаже спустя {C:attention}#1#{} раунда",
+                    "{C:inactive}(сейчас: {C:attention}#2#{C:inactive}/#1#)",
+					"{C:inactive,s:0.9}(Удаляет {C:dark_edition,s:0.9}Негатив{C:inactive,s:0.9} с копии)"
                 },
                 unlock = {
                     "Выиграйте партию, ниразу не получив",
                     "больше {E:1,C:attention}4 джокеров{}"
                 }
             },
-
 
             j_brainstorm = {
                 name = "Мозговой штурм",
@@ -1476,10 +1476,10 @@ return {
             v_reroll_surplus = {
                 name = "Излишки",
                 text = {
-                    "Обновления магазина стоят на {C:money}$#1#{} меньше"
+                    "Обновления магазина",
+					"стоят на {C:money}$#1#{} меньше"
                 }
             },
-
             v_crystal_ball = {
                 name = "Хрустальный шар",
                 text = {
@@ -1624,7 +1624,8 @@ return {
             v_reroll_glut = {
                 name = "Изобилие обновлений",
                 text = {
-                    "Обновления магазина стоят на {C:money}$#1#{} меньше"
+                    "Обновления магазина",
+					"стоят на {C:money}$#1#{} меньше"
                 },
                 unlock = {
                     "Используйте обновление магазина",
@@ -1632,7 +1633,6 @@ return {
                     "{C:inactive}(#2#)"
                 }
             },
-
             v_omen_globe = {
                 name = "Шар знамения",
                 text = {
@@ -1740,7 +1740,7 @@ return {
 
 
             v_retcon = {
-                name = "Реткон",
+                name = "Неудачные дубли",
                 text = {
                     "Позволяет обновить Босс-блайнд",
                     "{C:attention}неограниченное{} количество раз,",
@@ -2333,7 +2333,7 @@ return {
                 name = "Чёрная ставка",
                 text = {
                     "В магазине могут появиться {C:attention}Вечные{} джокеры",
-                    "{C:inactive,s:0.8}{нельзя продать или уничтожить}",
+                    "{C:inactive,s:0.8}(их нельзя продать или уничтожить)",
                     "{s:0.8}Также включает все предыдущие ставки"
                 }
             },
@@ -3511,7 +3511,7 @@ return {
             b_options = "Параметры",
             b_reroll_boss = "Обновить босс-блайнд",
             b_skip_blind = "Пропустить",
-            b_skip_reward = "Пропустить награду",
+            b_skip_reward = "Пропустить",
             b_skip = "Пропуcтить",
             b_start_new_run = " Новая партия ",
             b_main_menu = " В главное меню ",
@@ -3676,7 +3676,7 @@ return {
             k_nope_ex = "Не-а!",
 			k_not_allowed_ex = "Не считается!",
             k_or = "или",
-            k_poker_hand = "покерную комбинацию",
+            k_poker_hand = "покерная комбинация",
             k_gold = "Золото",
             k_card_stats = "Статистика карт",
             k_balanced = "Усреднение",
@@ -3729,7 +3729,7 @@ return {
             ph_score_new_collection = "Новые открытия",
             ph_score_cards_played = "Сыгранные карты",
             ph_score_cards_discarded = "Сброшенные карты",
-            ph_score_times_rerolled = "Обновлений магазина",
+            ph_score_times_rerolled = "Обновления магазина",
             ph_score_cards_purchased = "Купленные карты",
             ph_unscored_hand = "Эта рука не принесёт очки",
             ph_alert_debuff_confirm = "Нажмите «Сыграть» ещё раз, чтобы подтвердить",
@@ -3902,7 +3902,7 @@ return {
                 "Все {C:attention}блайнды{} не дают денег в награду"
             },
             ch_c_no_reward_specific = {
-                "{C:attention}#1# блайндов{} не дают денег в награду"
+                "{C:attention}Малые и Большие блайнды{} не дают денег в награду"
             },
             ch_c_no_extra_hand_money = {
                 "Оставшиеся {C:blue}руки{} больше не приносят деньги"
@@ -3938,7 +3938,7 @@ return {
                 "{C:green}1 из #1#{} карт тянется рубашкой вверх"
             },
             ch_c_debuff_played_cards = {
-                "Все {C:attention}сыгранные{} карты получают {C:attention}ослабление{} после подсчёта"
+                "Все {C:attention}сыгранные{} карты {C:attention}ослабляются{} после подсчёта"
             },
             ch_c_minus_hand_size_per_X_dollar = {
                 "{C:red}-1{} к размеру руки за каждые ваши {C:money}$#1#{}"

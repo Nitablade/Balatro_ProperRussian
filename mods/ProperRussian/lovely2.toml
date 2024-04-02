@@ -92,12 +92,116 @@ payload = '''{n=G.UIT.T, config={text = "колоду", scale = 0.38, colour = G
 overwrite = true
 match_indent = true
 
+# Локализация и местоположение строки "PEEK DECK" при игре с геймпадом
+[[patches]]
+[patches.pattern]
+target = "cardarea.lua"
+pattern = '''{n=G.UIT.T, config={text = 'PEEK', scale = 0.48, colour = G.C.WHITE, shadow = true}}'''
+position = "at"
+payload = '''{n=G.UIT.T, config={text = localize('k_view'), scale = 0.48, colour = G.C.WHITE, shadow = true}}'''
+overwrite = true
+match_indent = true
+[[patches]]
+[patches.pattern]
+target = "cardarea.lua"
+pattern = '''{n=G.UIT.T, config={text = 'DECK', scale = 0.38, colour = G.C.WHITE, shadow = true}}'''
+position = "at"
+payload = '''{n=G.UIT.T, config={text = "колоду", scale = 0.38, colour = G.C.WHITE, shadow = true}}'''
+overwrite = true
+match_indent = true
+[[patches]]
+[patches.pattern]
+target = "cardarea.lua"
+pattern = '''config = { align = 'cl', offset = {x=-0.5,y=0.1}, major = self, parent = self}'''
+position = "at"
+payload = '''config = { align = 'cr', offset = {x=-2.2,y=0.1}, major = self, parent = self}'''
+overwrite = true
+match_indent = true
+
+# Локализация для отсутствующей строки "DEFEAT BOSS-BLIND TO RESTOCK"
+[[patches]]
+[patches.pattern]
+target = "functions/button_callbacks.lua"
+pattern = '''elseif G.SETTINGS.language ~= 'en-us' then'''
+position = "at"
+payload = '''elseif G.SETTINGS.language == 'zh_TW' then'''
+overwrite = true
+match_indent = true
+[[patches]]
+[patches.pattern]
+target = "cardarea.lua"
+pattern = '''{n=G.UIT.T, config={text = 'DEFEAT', scale = 0.6, colour = G.C.WHITE}}'''
+position = "at"
+payload = '''{n=G.UIT.T, config={text = 'ПОБЕДИТЕ', scale = 0.4, colour = G.C.WHITE}}'''
+overwrite = true
+match_indent = true
+[[patches]]
+[patches.pattern]
+target = "cardarea.lua"
+pattern = '''{n=G.UIT.T, config={text = 'BOSS BLIND', scale = 0.4, colour = G.C.WHITE}}'''
+position = "at"
+payload = '''{n=G.UIT.T, config={text = 'БОСС-БЛАЙНД', scale = 0.4, colour = G.C.WHITE}}'''
+overwrite = true
+match_indent = true
+[[patches]]
+[patches.pattern]
+target = "cardarea.lua"
+pattern = '''{n=G.UIT.T, config={text = 'TO RESTOCK', scale = 0.4, colour = G.C.WHITE}}'''
+position = "at"
+payload = '''{n=G.UIT.T, config={text = 'ДЛЯ ПОПОЛНЕНИЯ', scale = 0.4, colour = G.C.WHITE}}'''
+overwrite = true
+match_indent = true
+
+# Использование корректного шрифта для кол-ва рук/сбросов/денег/анте в интерфейсе
+[[patches]]
+[patches.pattern]
+target = "functions/UI_definitions.lua"
+pattern = '''{n=G.UIT.O, config={object = DynaText({string = {{ref_table = G.GAME.current_round, ref_value = 'hands_left'}}, font = G.LANGUAGES['en-us'].font, colours = {G.C.BLUE},shadow = true, rotate = true, scale = 2*scale}),id = 'hand_UI_count'}},'''
+position = "at"
+payload = '''{n=G.UIT.O, config={object = DynaText({string = {{ref_table = G.GAME.current_round, ref_value = 'hands_left'}}, font = G.LANGUAGES['ru'].font, colours = {G.C.BLUE},shadow = true, rotate = true, scale = 2*scale}),id = 'hand_UI_count'}},'''
+overwrite = true
+match_indent = true
+[[patches]]
+[patches.pattern]
+target = "functions/UI_definitions.lua"
+pattern = '''{n=G.UIT.O, config={object = DynaText({string = {{ref_table = G.GAME.current_round, ref_value = 'discards_left'}}, font = G.LANGUAGES['en-us'].font, colours = {G.C.RED},shadow = true, rotate = true, scale = 2*scale}),id = 'discard_UI_count'}},'''
+position = "at"
+payload = '''{n=G.UIT.O, config={object = DynaText({string = {{ref_table = G.GAME.current_round, ref_value = 'discards_left'}}, font = G.LANGUAGES['ru'].font, colours = {G.C.RED},shadow = true, rotate = true, scale = 2*scale}),id = 'discard_UI_count'}},'''
+overwrite = true
+match_indent = true
+[[patches]]
+[patches.pattern]
+target = "functions/UI_definitions.lua"
+pattern = '''{n=G.UIT.O, config={object = DynaText({string = {{ref_table = G.GAME, ref_value = 'dollars', prefix = localize('$')}}, maxw = 1.35, colours = {G.C.MONEY}, font = G.LANGUAGES['en-us'].font, shadow = true,spacing = 2, bump = true, scale = 2.2*scale}), id = 'dollar_text_UI'}}'''
+position = "at"
+payload = '''{n=G.UIT.O, config={object = DynaText({string = {{ref_table = G.GAME, ref_value = 'dollars', prefix = localize('$')}}, maxw = 1.35, colours = {G.C.MONEY}, font = G.LANGUAGES['ru'].font, shadow = true,spacing = 2, bump = true, scale = 2.2*scale}), id = 'dollar_text_UI'}}'''
+overwrite = true
+match_indent = true
+[[patches]]
+[patches.pattern]
+target = "functions/UI_definitions.lua"
+pattern = '''{n=G.UIT.O, config={object = DynaText({string = {{ref_table = G.GAME.round_resets, ref_value = 'ante'}}, colours = {G.C.IMPORTANT},shadow = true, font = G.LANGUAGES['en-us'].font, scale = 2*scale}),id = 'ante_UI_count'}},'''
+position = "at"
+payload = '''{n=G.UIT.O, config={object = DynaText({string = {{ref_table = G.GAME.round_resets, ref_value = 'ante'}}, colours = {G.C.IMPORTANT},shadow = true, font = G.LANGUAGES['ru'].font, scale = 2*scale}),id = 'ante_UI_count'}},'''
+overwrite = true
+match_indent = true
+
+# Локализация для названий комбинаций при использовании Орбитального жетона
+[[patches]]
+[patches.pattern]
+target = "tag.lua"
+pattern = '''handname= self.ability.orbital_hand,'''
+position = "at"
+payload = '''handname = localize(self.ability.orbital_hand, "poker_hands"),'''
+overwrite = true
+match_indent = true
+
 # Текущая версия локализации
 [[patches]]
 [patches.pattern]
 target = "globals.lua"
 pattern = "VERSION = VERSION..'-FULL'"
 position = "after"
-payload = "VERSION = VERSION..' (Локализация от Nitablade, v1.0.4)'"
+payload = "VERSION = VERSION..' (Локализация от Nitablade, v1.0.5)'"
 overwrite = false
 match_indent = true

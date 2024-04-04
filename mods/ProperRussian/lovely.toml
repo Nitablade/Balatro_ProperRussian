@@ -3,7 +3,7 @@ version = "0.1"
 dump_lua = false
 priority = 0
 
-# Замена шрифта, TEXT_HEIGHT_SCALE - межстрочный интервал, self.TILESIZE - размер UI кнопок с текстом, 
+# Замена шрифта (для редактирования - измените параметры в строке "payload"), TEXT_HEIGHT_SCALE - межстрочный интервал, self.TILESIZE - размер UI кнопок с текстом, 
 # TEXT_OFFSET - смещение текста, FONTSCALE - размер шрифта, DESCSCALE - размер описаний карт
 [[patches]]
 [patches.pattern]
@@ -12,6 +12,34 @@ pattern = '''{file = "resources/fonts/NotoSans-Bold.ttf", render_scale = self.TI
 position = "at"
 payload = '''{file = "resources/fonts/NotoSans-Bold.ttf", render_scale = self.TILESIZE*10, TEXT_HEIGHT_SCALE = 0.65, TEXT_OFFSET = {x=0,y=-40}, FONTSCALE = 0.13, squish = 1, DESCSCALE = 1},'''
 overwrite = true
+match_indent = true
+
+# Замена цвета для Треф и Пик (при просмотре колоды)
+[[patches]]
+[patches.pattern]
+target = "globals.lua"
+pattern = '''Clubs = HEX("008ee6"),'''
+position = "at"
+payload = '''Clubs = HEX("08b6b2"),'''
+overwrite = true
+match_indent = true
+[[patches]]
+[patches.pattern]
+target = "globals.lua"
+pattern = '''Spades = HEX("4f31b9"),'''
+position = "at"
+payload = '''Spades = HEX("8c55a8"),'''
+overwrite = true
+match_indent = true
+
+# Замена цвет для Треф и Пик (в описании карт)
+[[patches]]
+[patches.pattern]
+target = "card.lua"
+pattern = '''elseif self.ability.set == 'Joker' then -- all remaining jokers'''
+position = "before"
+payload = '''if self.base.suit == "Clubs" then loc_vars.colour = G.C.SO_2.Clubs end  if self.base.suit == "Spades" then loc_vars.colour = G.C.SO_2.Spades end'''
+overwrite = false
 match_indent = true
 
 # Локализация для строки "Not Allowed!"
@@ -88,7 +116,7 @@ match_indent = true
 target = "cardarea.lua"
 pattern = '''{n=G.UIT.T, config={text = localize('k_deck'), scale = 0.38, colour = G.C.WHITE, shadow = true}}'''
 position = "at"
-payload = '''{n=G.UIT.T, config={text = "колоду", scale = 0.38, colour = G.C.WHITE, shadow = true}}'''
+payload = '''{n=G.UIT.T, config={text = G.GAME.pseudorandom.seed, scale = 0.38, colour = G.C.WHITE, shadow = true}}'''
 overwrite = true
 match_indent = true
 
@@ -106,7 +134,7 @@ match_indent = true
 target = "cardarea.lua"
 pattern = '''{n=G.UIT.T, config={text = 'DECK', scale = 0.38, colour = G.C.WHITE, shadow = true}}'''
 position = "at"
-payload = '''{n=G.UIT.T, config={text = "колоду", scale = 0.38, colour = G.C.WHITE, shadow = true}}'''
+payload = '''{n=G.UIT.T, config={text = G.GAME.pseudorandom.seed, scale = 0.38, colour = G.C.WHITE, shadow = true}}'''
 overwrite = true
 match_indent = true
 [[patches]]
@@ -174,7 +202,7 @@ match_indent = true
 target = "functions/UI_definitions.lua"
 pattern = '''{n=G.UIT.O, config={object = DynaText({string = {{ref_table = G.GAME, ref_value = 'dollars', prefix = localize('$')}}, maxw = 1.35, colours = {G.C.MONEY}, font = G.LANGUAGES['en-us'].font, shadow = true,spacing = 2, bump = true, scale = 2.2*scale}), id = 'dollar_text_UI'}}'''
 position = "at"
-payload = '''{n=G.UIT.O, config={object = DynaText({string = {{ref_table = G.GAME, ref_value = 'dollars', prefix = localize('$')}}, maxw = 1.35, colours = {G.C.MONEY}, font = G.LANGUAGES['ru'].font, shadow = true,spacing = 2, bump = true, scale = 2.2*scale}), id = 'dollar_text_UI'}}'''
+payload = '''{n=G.UIT.O, config={object = DynaText({string = {{ref_table = G.GAME, ref_value = 'dollars', prefix = localize('$')}}, maxw = 1.8, colours = {G.C.MONEY}, font = G.LANGUAGES['ru'].font, shadow = true,spacing = 2, bump = true, scale = 2.2*scale}), id = 'dollar_text_UI'}}'''
 overwrite = true
 match_indent = true
 [[patches]]
@@ -202,6 +230,6 @@ match_indent = true
 target = "globals.lua"
 pattern = "VERSION = VERSION..'-FULL'"
 position = "after"
-payload = "VERSION = VERSION..' (Локализация от Nitablade, v1.0.5)'"
+payload = "VERSION = VERSION..' (Локализация от Nitablade, v1.0.6b)'"
 overwrite = false
 match_indent = true

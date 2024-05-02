@@ -202,6 +202,6 @@ match_indent = true
 target = "globals.lua"
 pattern = "VERSION = VERSION..'-FULL'"
 position = "after"
-payload = "VERSION = VERSION..' (Локализация от Nitablade, v1.1.0)'"
+payload = "VERSION = VERSION..' (Локализация от Nitablade, v1.1.1)'"
 overwrite = false
 match_indent = true

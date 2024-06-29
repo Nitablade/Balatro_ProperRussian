@@ -38,6 +38,9 @@ RU:
 - Если игра установлена во Внутренней памяти: ```Home/.steam/steam/steamapps/common/Balatro```  
 Папка **Appdata** находится по пути: ```Home/.steam/steam/steamapps/compatdata/2379780/pfx/drive_c/users/steamuser/AppData/Roaming/Balatro```
 
+Ещё нужно добавить в ```Steam → Balatro → Свойства → Общие → "Параметры запуска"``` строку: 
+**WINEDLLOVERRIDES="version=n,b" %command%**
+
 ## Как установить (на Mac):
 - Пока неизвестно, за неимением Mac'а, если кто разобрался - напишите мне.
 

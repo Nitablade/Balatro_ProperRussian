@@ -230,12 +230,51 @@ payload = '''label = localize('Diamonds', 'suits_singular'),'''
 overwrite = true
 match_indent = true
 
+# Добавление ссылки на локализацию в меню Авторы
+[[patches]]
+[patches.pattern]
+target = "functions/button_callbacks.lua"
+pattern = '''love.system.openURL( "https://www.instagram.com/louisfsoundtracks/" )'''
+position = "after"
+payload = '''
+			end
+			
+			G.FUNCS.nitablade_github = function(e)
+			love.system.openURL( "https://github.com/Nitablade/Balatro_ProperRussian/releases/" )
+			end
+			
+			G.FUNCS.nitablade_twitch = function(e)
+			love.system.openURL( "https://www.twitch.tv/Nitablade" )
+		  '''
+overwrite = false
+match_indent = true
+[[patches]]
+[patches.pattern]
+target = "functions/UI_definitions.lua"
+pattern = '''{n=G.UIT.T, config={text = "Modified with their permission", scale = text_scale*0.5, colour = G.C.UI.TEXT_LIGHT, shadow = true}},'''
+position = "after"
+payload = '''
+			}},
+			{n=G.UIT.R, config={align = "cm", padding = 0.32}, nodes={
+			  {n=G.UIT.T, config={text = "Локализация от", scale = text_scale*0.8, colour = G.C.UI.TEXT_LIGHT, shadow = true}},
+			  {n=G.UIT.T, config={text = "Nitablade", scale = text_scale*0.8, colour = HEX("ff004e"), shadow = true}}
+			}},
+			G.F_EXTERNAL_LINKS and {n=G.UIT.R, config={align = "cm", padding = 0.1}, nodes={
+               UIBox_button({label = {'Github'}, button = 'nitablade_github'}),
+               UIBox_button({label = {'Twitch'}, button = 'nitablade_twitch'})
+			}} or nil,
+			{n=G.UIT.R, config={align = "cm", padding = 0.2}, nodes={
+              {n=G.UIT.T, config={text = "Текущая версия локализации: 1.1.5", scale = text_scale*0.5, colour = G.C.UI.TEXT_LIGHT, shadow = true}},
+		  '''
+overwrite = false
+match_indent = true
+
 # Текущая версия локализации
 [[patches]]
 [patches.pattern]
 target = "globals.lua"
 pattern = "VERSION = VERSION..'-FULL'"
 position = "after"
-payload = "VERSION = VERSION..' (Локализация от Nitablade, v1.1.3)'"
+payload = "VERSION = VERSION..' (Локализация от Nitablade, v1.1.5)'"
 overwrite = false
 match_indent = true

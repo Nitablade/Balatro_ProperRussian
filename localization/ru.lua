@@ -1441,7 +1441,6 @@ return {
                 }
             }
         },
-
         Voucher = {
             v_overstock_norm = {
                 name = "Избыток",
@@ -3300,72 +3299,39 @@ return {
             }
         }
     },
-    UI = {},
-    tutorial = {},
     misc = {
-        suits_singular = {
-            Spades = "Пики",
-            Hearts = "Червы",
-            Clubs = "Трефы",
-            Diamonds = "Бубны"
-        },
-        suits_plural = {
-            Spades = "Пик",
-            Hearts = "Червей",
-            Clubs = "Треф",
-            Diamonds = "Бубен"
-        },
-        blind_states = {
-            Select = "Выбрать",
-            Skipped = "Пропущено",
-            Current = "Сейчас",
-            Defeated = "Побеждён",
-            Upcoming = "Следующий",
-            Selected = "Выбрано"
-        },
-        ranks = {
-            Ace = "Туз",
-            King = "Король",
-            Queen = "Дама",
-            Jack = "Валет",
-            ['10'] = "10-ка",
-            ['9'] = "9-ка",
-            ['8'] = "8-ка",
-            ['7'] = "7-ка",
-            ['6'] = "6-ка",
-            ['5'] = "5-ка",
-            ['4'] = "4-ка",
-            ['3'] = "3-ка",
-            ['2'] = "2-ка"
-        },
-        collabs = {
-            Spades = {
-                ['1'] = "По умолчанию", 
-                ['2'] = "The Witcher",
-            },
-            Hearts = {
-                ['1'] = "По умолчанию", 
-                ['2'] = "Among Us"
-            },
-            Clubs = {
-                ['1'] = "По умолчанию", 
-                ['2'] = "Vampire Survivors"
-            },
-            Diamonds = {
-                ['1'] = "По умолчанию", 
-                ['2'] = "Dave the Diver"
-            },
-        },		
-        high_scores = {
-            hand = "Лучшая рука",
-            furthest_round = "Наивысший раунд",
-            furthest_ante = "Наивысшее анте",
-            most_money = "Максимум денег",
-            boss_streak = "Максимум боссов подряд",
-            collection = "Коллекция",
-            win_streak = "Лучшая серия побед",
-            current_streak = "",
-            poker_hand = "Наиболее часто сыгранная рука"
+        achievement_descriptions = {
+            ante_up = "Достичь 4 Анте",
+            ante_upper = "Достичь 8 Анте",
+            heads_up = "Выиграть партию",
+            low_stakes = "Выиграть партию как минимум с Красной ставкой",
+            mid_stakes = "Выиграть партию как минимум с Чёрной ставкой",
+            high_stakes = "Выиграть партию с Золотой ставкой",
+            card_player = "Сыграть не менее 2.500 карт",
+            card_discarder = "Сбросить не менее 2.500 карт",
+            nest_egg = "Держать на руках не менее $400 в одной партии",
+            flushed = "Сыграть Флеш с 5 дикими картами",
+            speedrunner = "Выиграть партию за 12 или меньше раундов",
+            roi = "Выкупить 5 купонов до 4 Анте",
+            shattered = "Разбить 2 стеклянные карты за одну руку",
+            royale = "Сыграть Флеш-рояль",
+            retrograde = "Повысить уровень любой покерной комбинации до 10",
+            _10k = "Набрать 10.000 фишек за одну руку",
+            _1000k = "Набрать 1.000.000 фишек за одну руку",
+            _100000k = "Набрать 100.000.000 фишек за одну руку",
+            tiny_hands = "Сократить колоду до 20 или менее карт",
+            big_hands = "Собрать 80 или больше карт в колоде",
+            you_get_what_you_get = "Выиграть партию без обновления магазина",
+            rule_bender = "Завершить любое испытание",
+            rule_breaker = "Завершить каждое испытание",
+            legendary = "Обнаружить легендарного джокера",
+            astronomy = "Обнаружить каждую карту планеты",
+            cartomancy = "Обнаружить каждую карту Таро",
+            clairvoyance = "Обнаружить каждую Спектральную карту",
+            extreme_couponer = "Обнаружить каждый купон",
+            completionist = "Обнаружить 100% предметов для коллекции",
+            completionist_plus = "Выиграть партию на каждой колоде с Золотой ставкой",
+            completionist_plus_plus = "Получить Золотой стикер на каждый джокер",
         },
         achievement_names = {
             ante_up = "Поднять анте!",
@@ -3400,38 +3366,13 @@ return {
             completionist_plus = "Сделать всё возможное!",
             completionist_plus_plus = "Сделать всё невозможное!",
         },
-        achievement_descriptions = {
-            ante_up = "Достичь 4 Анте",
-            ante_upper = "Достичь 8 Анте",
-            heads_up = "Выиграть партию",
-            low_stakes = "Выиграть партию как минимум с Красной ставкой",
-            mid_stakes = "Выиграть партию как минимум с Чёрной ставкой",
-            high_stakes = "Выиграть партию с Золотой ставкой",
-            card_player = "Сыграть не менее 2.500 карт",
-            card_discarder = "Сбросить не менее 2.500 карт",
-            nest_egg = "Держать на руках не менее $400 в одной партии",
-            flushed = "Сыграть Флеш с 5 дикими картами",
-            speedrunner = "Выиграть партию за 12 или меньше раундов",
-            roi = "Выкупить 5 купонов до 4 Анте",
-            shattered = "Разбить 2 стеклянные карты за одну руку",
-            royale = "Сыграть Флеш-рояль",
-            retrograde = "Повысить уровень любой покерной комбинации до 10",
-            _10k = "Набрать 10.000 фишек за одну руку",
-            _1000k = "Набрать 1.000.000 фишек за одну руку",
-            _100000k = "Набрать 100.000.000 фишек за одну руку",
-            tiny_hands = "Сократить колоду до 20 или менее карт",
-            big_hands = "Собрать 80 или больше карт в колоде",
-            you_get_what_you_get = "Выиграть партию без обновления магазина",
-            rule_bender = "Завершить любое испытание",
-            rule_breaker = "Завершить каждое испытание",
-            legendary = "Обнаружить легендарного джокера",
-            astronomy = "Обнаружить каждую карту планеты",
-            cartomancy = "Обнаружить каждую карту Таро",
-            clairvoyance = "Обнаружить каждую Спектральную карту",
-            extreme_couponer = "Обнаружить каждый купон",
-            completionist = "Обнаружить 100% предметов для коллекции",
-            completionist_plus = "Выиграть партию на каждой колоде с Золотой ставкой",
-            completionist_plus_plus = "Получить Золотой стикер на каждый джокер",
+        blind_states = {
+            Select = "Выбрать",
+            Skipped = "Пропущено",
+            Current = "Сейчас",
+            Defeated = "Побеждён",
+            Upcoming = "Следующий",
+            Selected = "Выбрано"
         },
         challenge_names = {
             c_omelette_1 = "Омлет",
@@ -3455,20 +3396,429 @@ return {
             c_cruelty_1 = "Жестокость",
             c_jokerless_1 = "Без джокеров",
         },
-        poker_hands = {
-            ['Flush Five'] = "Покер-флеш",
-			['Flush House'] = "Флеш-хаус",
-            ['Five of a Kind'] = "Покер",
-            ['Royal Flush'] = "Флеш-рояль",
-            ['Straight Flush'] = "Стрит-флеш",
-            ['Four of a Kind'] = "Каре",
-            ['Full House'] = "Фулл-хаус",
-            ['Flush'] = "Флеш",
-            ['Straight'] = "Стрит",
-            ['Three of a Kind'] = "Сет",
-            ['Two Pair'] = "Две пары",
-            ['Pair'] = "Пара",
-            ['High Card'] = "Старшая карта",         
+        collabs = {
+            Spades = {
+                ['1'] = "По умолчанию", 
+                ['2'] = "The Witcher",
+				["3"] = "Cyberpunk 2077",
+            },
+            Hearts = {
+                ['1'] = "По умолчанию", 
+                ['2'] = "Among Us",
+				["3"] = "The Binding of Isaac",
+            },
+            Clubs = {
+                ['1'] = "По умолчанию", 
+                ['2'] = "Vampire Survivors",
+				["3"] = "Slay the Spire",
+            },
+            Diamonds = {
+                ['1'] = "По умолчанию", 
+                ['2'] = "Dave the Diver",
+				["3"] = "Stardew Valley",
+            },
+        },		
+        dictionary = {
+			['$'] = "$",
+			b_FAQ = "Вопросы и ответы",
+            b_and_use = "И ИСПОЛЬЗОВАТЬ",
+            b_back = "Вернуться",
+            b_blinds = "Блайнды",
+            b_booster_packs = "Бустерные наборы",
+            b_buy = "КУПИТЬ",
+            b_cash_out = "Обналичить",
+            b_challenges = "Испытания",
+            b_collection = "Коллекция",
+            b_collection_cap = "КОЛЛЕКЦИЯ",
+            b_continue = "Продолжить",
+			b_copy = "Копировать",
+            b_copy_seed = "Копировать сид",
+            b_create_profile = "Создать профиль",
+            b_credits = "Авторы",
+            b_current_profile = "Текущий профиль",
+            b_customize_deck = "Особые рубашки для карт",			
+            b_deck = "Колода",
+            b_decks = "Колоды",
+            b_delete_profile = "Удалить профиль",
+            b_discard = "Сбросить",
+            b_editions = "Издания",
+            b_endless = "Бесконечный режим",
+            b_enhanced_cards = "Улучшения карт",
+            b_full_deck = "Полная колода",
+			b_high_contrast_cards = "Повышенный контраст для карт",
+            b_how_to_play="Как играть",
+            b_imagery = "Изображения",
+            b_jokers = "Джокеры",
+            b_load_profile = "Загрузить профиль",
+            b_main_menu = " В главное меню ",
+            b_music = "Музыка",
+            b_new_challenge = "Начать новое испытание",
+            b_new_run = "Новая партия ",
+            b_next = "Дальше",
+            b_next_round_1 = "Следующий",
+            b_next_round_2 = "раунд",
+            b_open = "ОТКРЫТЬ",
+            b_options = "Параметры",
+            b_options_cap = "НАСТРОЙКИ",
+            b_planet_cards = "Карты планет",
+            b_play_cap = "ИГРАТЬ",
+            b_play_hand = "Сыграть руку",
+            b_playbalatro = "Посетите playbalatro.com",
+            b_poker_hands = "Комбинации",
+            b_quit_cap = "ВЫХОД",
+            b_redeem = "ВЫКУПИТЬ",
+			b_reduced_motion = "Уменьшенное движение",
+            b_remaining = "Оставшиеся",
+            b_reroll_boss = "Обновить босс-блайнд",
+            b_reset_profile = "Сброс профиля",
+            b_restrictions = "Ограничения",
+            b_retry= "Заново",			
+            b_rules = "Правила",
+            b_run_info_1 = "Детали",
+            b_run_info_2 = "партии",
+            b_seals = "Печати",
+            b_seed = "Сид",
+            b_select = "ВЫБРАТЬ",
+            b_sell = "ПРОДАТЬ",
+            b_set_CRT = "Эффект ЭЛТ",
+            b_set_CRT_bloom = "Свечение ЭЛТ",
+            b_set_apply = "Применить",
+            b_set_audio = "Аудио",
+            b_set_crash_reports = "Отчёты об ошибках",
+            b_set_game = "Геймплей",
+            b_set_game_vol = "Громкость эффектов",
+            b_set_gamespeed = "Скорость игры",
+            b_set_graphics = "Графика",
+            b_set_master_vol = "Общая громкость",
+            b_set_monitor = "Монитор для вывода",
+            b_set_music_vol = "Громкость музыки",
+            b_set_pixel_smoothing = "Сглаживание пиксель-арта",
+            b_set_play_discard_pos = "Положение кнопок «Сыграть руку/Сбросить»",
+            b_set_rumble = "Вибрация контроллера",
+            b_set_screenshake = "Тряска экрана",
+            b_set_shadows = "Тени",
+            b_set_vibration= "Вибрация",
+            b_set_video = "Видео",
+            b_set_windowmode = "Оконный режим",
+            b_settings = "Настройки",
+            b_skip = "Пропуcтить",
+            b_skip_blind = "Пропустить",
+            b_skip_reward = "Пропустить",
+            b_sort_hand = "Сортировка руки",
+            b_sounds = "Звуки",
+            b_spectral_cards = "Спектральные карты",
+            b_stake = "Ставка",
+            b_start_new_run = " Новая партия ",
+            b_stat_consumables = "Расходники",
+            b_stat_jokers = "Джокеры",
+            b_stat_planets = "Планеты",
+            b_stat_spectrals = "Спектральные",
+            b_stat_tarots = "Таро",
+            b_stat_vouchers = "Купоны",
+            b_stats = "Статистика",
+            b_tags = "Жетоны",
+            b_tarot_cards = "Карты Таро",
+            b_unlock_all = "Разблокировать всё",
+            b_use = "ИСПОЛЬЗОВАТЬ",
+            b_vouchers = "Купоны",
+            b_wishlist = "В список желаемого Steam",
+			k_aces = "Тузы",			
+            k_achievement = "Достижение",
+            k_achievements_disabled = "Достижения отключены",
+            k_active = "Активно",
+            k_active_ex = "Активно!",
+            k_again_ex = "Ещё раз!",
+            k_all_hands = "Все комбинации",
+            k_also_applied = "Также включает",
+            k_ante = "Анте",
+            k_ante_cap = "АНТЕ",
+            k_arcana_pack = "Набор аркана",
+            k_balanced = "Усреднение",
+            k_banned_cards = "Запрещённые карты",
+            k_banned_tags = "Запрещённые жетоны",
+            k_base_cap = "СТАРТ.",
+            k_base_cards = "Игральные карты",
+            k_best_hand = "Лучшая рука",
+            k_booster = "Бустер",
+            k_buffoon_pack = "Шутовской набор",
+            k_cap_consumables = "РАСХОДНИКИ",
+            k_card_stats = "Статистика карт",
+            k_celestial_pack = "Небесный набор",
+            k_challenge_mode = "Режим испытаний",
+            k_challenges = "Испытания",
+            k_choose = "Выберите",
+            k_collection = "Коллекция",
+            k_common = "Обычный",
+            k_compatible = "Совместимо",
+            k_copied_ex = "Скопировано!",
+            k_custom_rules = "Особые правила",
+            k_daily_run = "Ежедневная партия",
+            k_debuffed = "Ослаблено",
+            k_deck = "Колода",
+            k_deck_stake_wins = "Победы на колоде со ставкой",
+            k_defeated_by = "Поражение от:",
+            k_demo_version_ex = "Демоверсия!",
+			k_disabled_ex = "Ослаблено!",
+            k_drank_ex = "Выпито!",
+            k_duplicated_ex = "Скопировано!",
+            k_dwarf_planet = "Карликовая планета",
+            k_eaten_ex = "Съедено!",
+            k_edition = "Издание",
+            k_effective = "Общее количество",
+            k_empty_caps = "ПУСТО",
+            k_enter_name = "Введите имя:",
+            k_enter_seed = "Введите сид:",
+            k_enter_text = "Введите текст",
+            k_eroded_ex = "Разрушено!",
+            k_extinct_ex = "Исчезло!",
+            k_face_cards = "Карты с лицом",
+            k_game_modifiers = "Модификаторы партии",
+            k_gold = "Золото",
+            k_high_score_ex = "Рекорд!",
+            k_hud_discards = "Сбросы",
+            k_hud_hands = "Руки",
+            k_incompatible = "Несовместимо",
+            k_joker = "Джокер",
+            k_joker_stickers = "Стикеры для джокеров",
+            k_jokers_cap = "ДЖОКЕРЫ",
+            k_legendary = "Легендарный",
+            k_level_prefix = "ур.",
+            k_level_up_ex = "Уровень повышен!",
+            k_locked = "Заблокировано",
+            k_lower_score = "(очки)",
+            k_lvl = "ур.",
+            k_melted_ex = "Растаяло!",
+            k_money = "Деньги",
+            k_mult = "множ.",
+            k_no_other_jokers = "Нет других джокеров!",
+            k_no_reward = "Без наград",
+            k_no_room_ex = "Нет места!",
+            k_no_space_ex = "Нет места!",
+            k_none = "Нет",
+            k_nope_ex = "Не-а!",
+			k_not_allowed_ex = "Не считается!",
+            k_not_discovered = "Не обнаружено",
+            k_numbered_cards = "Карты с числом",
+            k_or = "или",
+            k_other = "Другое",
+            k_page = "Страница",
+            k_planet = "Планета",
+            k_planet_q = "Планета?",
+            k_playing_as = "Игра за",
+            k_plus_joker = "+1 джокер",
+            k_plus_planet = "+1 планета",
+            k_plus_spectral = "+1 спектральная",
+            k_plus_stone = "+1 камень",
+            k_plus_tarot = "+1 Таро",
+            k_poker_hand = "покерная комбинация",
+            k_profile = "Профиль",
+            k_progress = "Прогресс",
+            k_rank = "Достоинство",
+            k_rare = "Редкий",
+            k_redeemed_ex = "Выкуплено!",
+            k_reroll = "Обновить",
+            k_reset = "Заново",
+            k_reward = "Награда",
+            k_round = "Раунд",
+            k_safe_ex = "Уцелел!",
+            k_saved_ex = "Сохранено!",
+            k_seed = "Сид",
+            k_seeded_run = "Партия с сидом",
+            k_skipped_cap = "ПРОПУЩЕНО",
+            k_spectral = "Спектральная",
+            k_spectral_pack = "Спектральный набор",
+            k_stake = "Ставка",
+            k_stake_level = "Ставка",
+            k_standard_pack = "Стандартный набор",
+            k_suit = "Масть",
+            k_swapped_ex = "Заменено!",
+            k_tarot = "Таро",
+            k_trophies_disabled = "Трофеи отключены",
+			k_trophy = "Трофей",
+            k_uncommon = "Необычный",
+            k_undisovered = "Не обнаружено",
+            k_unknown = "?????",
+            k_unlocked_ex = "(Новинка!)",
+            k_upgrade_ex = "Улучшено!",
+            k_val_up = "Стоимость выросла!",
+            k_view = "Просмотреть",
+            k_voucher = "Купон",
+            k_vouchers_cap = "КУПОНЫ",
+            k_wins = "Победы",
+            k_x_base = "X Старт.",
+            ml_bloom_opt = {
+                "Выкл.",
+                "Вкл."
+            },		
+            ml_buy_and_use_target = {
+                "КУПИТЬ",
+                "И ИСПОЛЬЗОВАТЬ",
+            },
+            ml_buy_target = {
+                "КУПИТЬ",
+            },		
+            ml_card_stats = {
+                "Статистика",
+                "карты"
+            },		
+            ml_controller_required = {
+                "Для игры требуется контроллер.",
+                "Подключите его, чтобы продолжить.",
+            },		
+            ml_crash_report_info = {
+                "Отчёты об ошибках будут отправлены разработчику,",
+                "чтобы уменьшить количество проблем в будущем.",
+                "Идентификационные или личные данные не отправляются."
+            },			
+            ml_demo_thanks_message = {
+                "Добавляйте Balatro в список",
+                "желаемого Steam и подписывайтесь на",
+                "рассылку на playbalatro.com"
+            },
+            ml_disabled_seed = {
+                "Все новые открытия и",
+                "достижения будут отключены"
+            },
+            ml_edition_seal_enhancement_explanation = {
+                "У каждой игральной карты может быть",
+                "одно улучшение, издание и печать"
+            },
+            ml_eternal = {
+                "Вечный",
+                "Нельзя продать",
+                "или уничтожить"
+            },
+            ml_gold_seal_desc = {
+                "Золотая печать",
+                "возвращается в руку,",
+                "когда сыграна"
+            },
+            ml_offline_message = {
+                "Отсутствует подключение к сети Интернет.",
+                "Возможно, текущее сохранение устарело.",
+            },
+            ml_open_target={
+                "ОТКРЫТЬ",
+            },
+            ml_paste_seed = {
+                "Вставить",
+                "сид"
+            },
+            ml_play_discard_pos_opt = {
+                "Сбросить/Играть",
+                "Играть/Сбросить"
+            },
+            ml_redeem_target = {
+                "ВЫКУПИТЬ",
+            },
+            ml_sell_target = {
+                "ПРОДАТЬ",
+            },
+            ml_shadow_opt = {
+                "Вкл.",
+                "Выкл."
+            },
+            ml_smoothing_opt = {
+                "Выкл.",
+                "Вкл."
+            },
+            ml_unlock_all_explanation = {
+                "ВНИМАНИЕ! Разблокировав полную коллекцию,",
+                "вы отключите достижения для этого профиля!"
+            },
+            ml_unlock_all_trophies = {
+                "ВНИМАНИЕ! Разблокировав полную коллекцию,",
+                "вы отключите трофеи для этого профиля!"
+            },
+            ml_vsync_opt = {
+                "Верт. синхронизация: Вкл.",
+                "Верт. синхронизация: Выкл."
+            },
+            ml_windowmode_opt = {
+                "Оконный",
+                "Полноэкранный",
+                "Безрамочный"
+            },
+            ph_1_level = "+1 ур.",
+            ph_4_7_of_clubs = "четыре 7-ки Треф",
+            ph_alert_debuff_confirm = "Нажмите «Сыграть» ещё раз, чтобы подтвердить",			
+            ph_all_poker_hand = "Все покерные комбинации",
+            ph_blind_reward = "Награда:",
+            ph_blind_score_at_least = "Требуемый счёт",
+            ph_boss_disabled = "Босс отключён!",
+            ph_choose_blind_1 = "Выберите",
+            ph_choose_blind_2 = "следующий блайнд",
+            ph_click_confirm = "Нажмите ещё раз, чтобы подтвердить",
+            ph_deck_preview_effective = "Общее количество из-за джокеров, блайндов и улучшений карт",
+            ph_deck_preview_stones = "Каменные",
+            ph_defeat_the_boss = "Победите Босс-блайнд",
+            ph_defeat_this_blind_1 = "Победите этот блайнд,",
+            ph_defeat_this_blind_2 = "чтобы открыть его",
+            ph_demo_thanks_1 = "Спасибо, что играли",
+            ph_demo_thanks_2 = "В ДЕМО-ВЕРСИЮ BALATRO",
+            ph_display_stickers = "Отображать стикеры ставок во время партии",																	  
+            ph_game_over = "ИГРА ОКОНЧЕНА",
+            ph_improve_run = "Улучшите свою партию!",
+            ph_most_played = "{наиболее часто играемая рука}",
+            ph_mr_bones = "Спасены Костлявым",
+            ph_no_boss_active = "Босс-блайнд не активен",
+            ph_no_vouchers = "В этой партии не были выкуплены купоны",
+            ph_score_at_least = "Минимум очков",
+            ph_score_cards_discarded = "Сброшенные карты",
+            ph_score_cards_played = "Сыгранные карты",
+            ph_score_cards_purchased = "Купленные карты",
+            ph_score_furthest_ante = "Анте",
+            ph_score_furthest_round = "Раунд",
+            ph_score_hand = "Лучшая рука",
+            ph_score_new_collection = "Новые открытия",
+            ph_score_poker_hand = "Наиболее часто играемая рука",
+            ph_score_times_rerolled = "Обновления магазина",
+			ph_select_challenge = "Выберите испытание",
+            ph_sneak_peek = "Подсмотреть",
+            ph_stat_consumable = "Количество использований карты",
+            ph_stat_joker = "Завершено раундов с этим джокером",
+            ph_stat_voucher = "Количество покупок этого купона",
+            ph_unscored_hand = "Эта рука не принесёт очки",
+            ph_up_ante_1 = "Повышает Анте",
+            ph_up_ante_2 = "Обновляет и",
+            ph_up_ante_3 = "поднимает все блайнды",
+            ph_vouchers_redeemed = "Купоны, выкупленные в этой партии",
+            ph_you_win = "ПОБЕДА!",
+            ph_you_win_demo = "ВЫ ВЫИГРАЛИ В ДЕМО!"
+        },
+        high_scores = {
+            hand = "Лучшая рука",
+            furthest_round = "Наивысший раунд",
+            furthest_ante = "Наивысшее анте",
+            most_money = "Максимум денег",
+            boss_streak = "Максимум боссов подряд",
+            collection = "Коллекция",
+            win_streak = "Лучшая серия побед",
+            current_streak = "",
+            poker_hand = "Наиболее часто сыгранная рука"
+        },
+        labels = {
+            common = "Обычный",
+            uncommon = "Необычный",
+            rare = "Редкий",
+            legendary = "Легендарный",
+            tarot = "Таро",
+            planet = "Планета",
+            pluto_planet = "Карликовая планета",
+            voucher = "Купон",
+            foil = "Фольгированный",
+            holographic = "Голографический",
+            polychrome = "Полихромный",
+            negative = "Негативный",
+            gold_seal = "Золотая печать",
+            blue_seal = "Синяя печать",
+            red_seal = "Красная печать",
+            purple_seal = "Фиолетовая печать",
+			locked = "Заблокировано",
+            eternal = "Вечный",
+            perishable = "Временный",
+            rental = "Арендуемый",
+            pinned_left = "Закреплён"
         },
         poker_hand_descriptions = {
             ['Flush Five'] = {
@@ -3477,18 +3827,18 @@ return {
 			['Flush House'] = {
                 "Сет и пара одной масти"
             },
-
+			
             ['Five of a Kind'] = {
                 "5 карт одного достоинства"
             },
             ['Royal Flush'] = {
                 "5 старших карт в ряд (по достоинству) одной масти"
             },
-
+			
             ['Straight Flush'] = {
                 "5 карт в ряд (по достоинству) одной масти"
             },
-
+			
             ['Four of a Kind'] = {
                 "4 карты одного достоинства, могут",
                 "быть сыграны с 1 неподсчитываемой картой"
@@ -3519,368 +3869,315 @@ return {
                 "подсчитывается только карта с наибольшим достоинством"
             }
         },
-        labels = {
-            common = "Обычный",
-            uncommon = "Необычный",
-            rare = "Редкий",
-            legendary = "Легендарный",
-            tarot = "Таро",
-            planet = "Планета",
-            pluto_planet = "Карликовая планета",
-            voucher = "Купон",
-            foil = "Фольгированный",
-            holographic = "Голографический",
-            polychrome = "Полихромный",
-            negative = "Негативный",
-            gold_seal = "Золотая печать",
-            blue_seal = "Синяя печать",
-            red_seal = "Красная печать",
-            purple_seal = "Фиолетовая печать",
-			locked = "Заблокировано",
-            eternal = "Вечный",
-            perishable = "Временный",
-            rental = "Арендуемый",
-            pinned_left = "Закреплён"
+        poker_hands = {
+            ['Flush Five'] = "Покер-флеш",
+			['Flush House'] = "Флеш-хаус",
+            ['Five of a Kind'] = "Покер",
+            ['Royal Flush'] = "Флеш-рояль",
+            ['Straight Flush'] = "Стрит-флеш",
+            ['Four of a Kind'] = "Каре",
+            ['Full House'] = "Фулл-хаус",
+            ['Flush'] = "Флеш",
+            ['Straight'] = "Стрит",
+            ['Three of a Kind'] = "Сет",
+            ['Two Pair'] = "Две пары",
+            ['Pair'] = "Пара",
+            ['High Card'] = "Старшая карта",         
         },
-        dictionary = {
-            b_sell = "ПРОДАТЬ",
-            b_use = "ИСПОЛЬЗОВАТЬ",
-            b_select = "ВЫБРАТЬ",
-            b_buy = "КУПИТЬ",
-            b_redeem = "ВЫКУПИТЬ",
-            b_open = "ОТКРЫТЬ",
-            b_and_use = "И ИСПОЛЬЗОВАТЬ",
-            b_next_round_1 = "Следующий",
-            b_next_round_2 = "раунд",
-            b_play_hand = "Сыграть руку",
-            b_discard = "Сбросить",
-            b_sort_hand = "Сортировка руки",
-            b_run_info_1 = "Детали",
-            b_run_info_2 = "партии",
-            b_options = "Параметры",
-            b_reroll_boss = "Обновить босс-блайнд",
-            b_skip_blind = "Пропустить",
-            b_skip_reward = "Пропустить",
-            b_skip = "Пропуcтить",
-            b_start_new_run = " Новая партия ",
-            b_main_menu = " В главное меню ",
-            b_collection = "Коллекция",
-            b_seed = "Сид",
-            b_copy_seed = "Копировать сид",
-			b_copy = "Копировать",
-            b_credits = "Авторы",
-            b_stats = "Статистика",
-            b_customize_deck = "Особые рубашки для карт",			
-            b_settings = "Настройки",
-            b_set_game = "Геймплей",
-            b_set_video = "Видео",
-            b_set_graphics = "Графика",
-            b_set_audio = "Аудио",
-            b_set_gamespeed = "Скорость игры",
-            b_set_play_discard_pos = "Положение кнопок «Сыграть руку/Сбросить»",
-            b_set_screenshake = "Тряска экрана",
-			b_high_contrast_cards = "Повышенный контраст для карт",
-			b_reduced_motion = "Уменьшенное движение",
-            b_set_rumble = "Вибрация контроллера",
-            b_set_crash_reports = "Отчёты об ошибках",
-            b_set_monitor = "Монитор для вывода",
-            b_set_windowmode = "Оконный режим",
-            b_set_apply = "Применить",
-            b_set_master_vol = "Общая громкость",
-            b_set_music_vol = "Громкость музыки",
-            b_set_game_vol = "Громкость эффектов",
-            b_set_shadows = "Тени",
-            b_set_pixel_smoothing = "Сглаживание пиксель-арта",
-            b_set_CRT = "Эффект ЭЛТ",
-            b_set_CRT_bloom = "Свечение ЭЛТ",
-            b_stat_jokers = "Джокеры",
-            b_stat_consumables = "Расходники",
-            b_stat_tarots = "Таро",
-            b_stat_planets = "Планеты",
-            b_stat_spectrals = "Спектральные",
-            b_stat_vouchers = "Купоны",
-            b_next = "Дальше",
-            b_endless = "Бесконечный режим",
-            b_wishlist = "В список желаемого Steam",
-            b_playbalatro = "Посетите playbalatro.com",
-            b_remaining = "Оставшиеся",
-            b_full_deck = "Полная колода",
-            b_poker_hands = "Комбинации",
-            b_blinds = "Блайнды",
-            b_vouchers = "Купоны",
-            b_stake = "Ставка",
-            b_jokers = "Джокеры",
-            b_tarot_cards = "Карты Таро",
-            b_planet_cards = "Карты планет",
-            b_spectral_cards = "Спектральные карты",
-            b_enhanced_cards = "Улучшения карт",
-            b_editions = "Издания",
-            b_booster_packs = "Бустерные наборы",
-            b_tags = "Жетоны",
-            b_decks = "Колоды",
-            b_seals = "Печати",
-            b_continue = "Продолжить",
-            b_back = "Вернуться",
-            b_music = "Музыка",
-            b_sounds = "Звуки",
-            b_imagery = "Изображения",
-            b_new_run = "Новая партия ",
-            b_challenges = "Испытания",
-            b_new_challenge = "Начать новое испытание",
-            b_current_profile = "Текущий профиль",
-            b_load_profile = "Загрузить профиль",
-            b_create_profile = "Создать профиль",
-            b_delete_profile = "Удалить профиль",
-            b_reset_profile = "Сброс профиля",
-            b_rules = "Правила",
-            b_restrictions = "Ограничения",
-            b_deck = "Колода",
-            b_play_cap = "ИГРАТЬ",
-            b_options_cap = "НАСТРОЙКИ",
-            b_collection_cap = "КОЛЛЕКЦИЯ",
-            b_quit_cap = "ВЫХОД",
-            b_cash_out = "Обналичить",
-            b_unlock_all = "Разблокировать всё",
-            k_unknown = "?????",
-            k_compatible = "Совместимо",
-            k_incompatible = "Несовместимо",
-            k_active = "Активно",
-            k_round = "Раунд",
-            k_ante = "Анте",
-            k_seed = "Сид",
-            k_reroll = "Обновить",
-            k_mult = "множ.",
-            k_rank = "Достоинство",
-            k_suit = "Масть",
-            k_stake = "Ставка",
-            k_common = "Обычный",
-            k_uncommon = "Необычный",
-            k_rare = "Редкий",
-            k_legendary = "Легендарный",
-            k_debuffed = "Ослаблено",
-            k_locked = "Заблокировано",
-            k_undisovered = "Не обнаружено",
-            k_joker = "Джокер",
-            k_voucher = "Купон",
-            k_tarot = "Таро",
-            k_planet = "Планета",
-            k_deck = "Колода",
-            k_dwarf_planet = "Карликовая планета",
-            k_planet_q = "Планета?",
-            k_spectral = "Спектральная",
-            k_booster = "Бустер",
-            k_edition = "Издание",
-            k_hud_hands = "Руки",
-            k_hud_discards = "Сбросы",
-            k_lower_score = "(очки)",
-            k_arcana_pack = "Набор аркана",
-            k_celestial_pack = "Небесный набор",
-            k_spectral_pack = "Спектральный набор",
-            k_standard_pack = "Стандартный набор",
-            k_buffoon_pack = "Шутовской набор",
-            k_enter_text = "Введите текст",
-            k_defeated_by = "Поражение от:",
-            k_level_prefix = "ур.",
-            k_also_applied = "Также включает",
-            k_base_cards = "Игральные карты",
-            k_effective = "Общее количество",
-            k_aces = "Тузы",
-            k_face_cards = "Карты с лицом",
-            k_numbered_cards = "Карты с числом",
-            k_cap_consumables = "РАСХОДНИКИ",
-            k_page = "Страница",
-            k_ante_cap = "АНТЕ",
-            k_base_cap = "СТАРТ.",
-            k_jokers_cap = "ДЖОКЕРЫ",
-            k_vouchers_cap = "КУПОНЫ",
-            k_x_base = "X Старт.",
-            k_not_discovered = "Не обнаружено",
-            k_unlocked_ex = "(Новинка!)",
-            k_achievement = "Достижение",
-			k_trophy = "Трофей",
-            k_challenge_mode = "Режим испытаний",
-            k_daily_run = "Ежедневная партия",
-            k_profile = "Профиль",
-            k_wins = "Победы",
-            k_empty_caps = "ПУСТО",
-            k_collection = "Коллекция",
-            k_progress = "Прогресс",
-            k_challenges = "Испытания",
-            k_joker_stickers = "Стикеры для джокеров",
-            k_deck_stake_wins = "Победы на колоде со ставкой",
-            k_stake_level = "Ставка",
-            k_none = "Нет",
-            k_game_modifiers = "Модификаторы партии",
-            k_custom_rules = "Особые правила",
-            k_banned_cards = "Запрещённые карты",
-            k_banned_tags = "Запрещённые жетоны",
-            k_other = "Другое",
-            k_money = "Деньги",
-            k_best_hand = "Лучшая рука",
-            k_seeded_run = "Партия с сидом",
-            k_enter_seed = "Введите сид:",
-            k_enter_name = "Введите имя:",
-            k_lvl = "ур.",
-            k_skipped_cap = "ПРОПУЩЕНО",
-            k_no_reward = "Без наград",
-            k_reward = "Награда",
-            k_nope_ex = "Не-а!",
-			k_not_allowed_ex = "Не считается!",
-            k_or = "или",
-            k_poker_hand = "покерная комбинация",
-            k_gold = "Золото",
-            k_card_stats = "Статистика карт",
-            k_balanced = "Усреднение",
-            k_view = "Просмотреть",
-            k_all_hands = "Все комбинации",
-            k_high_score_ex = "Рекорд!",
-            k_demo_version_ex = "Демоверсия!",
-            k_playing_as = "Игра за",
-            k_choose = "Выберите",
-            k_achievements_disabled = "Достижения отключены",
-            k_trophies_disabled = "Трофеи отключены",
-            ph_display_stickers = "Отображать стикеры ставок во время партии",																	  
-            ph_improve_run = "Улучшите свою партию!",
-            ph_no_boss_active = "Босс-блайнд не активен",
-            ph_sneak_peek = "Подсмотреть",
-            ph_deck_preview_stones = "Каменные",
-            ph_deck_preview_effective = "Общее количество из-за джокеров, блайндов и улучшений карт",
-            ph_blind_score_at_least = "Требуемый счёт",
-            ph_blind_reward = "Награда:",
-            ph_4_7_of_clubs = "четыре 7-ки Треф",
-            ph_up_ante_1 = "Повышает Анте",
-            ph_up_ante_2 = "Обновляет и",
-            ph_up_ante_3 = "поднимает все блайнды",
-			ph_select_challenge = "Выберите испытание",
-            ph_stat_joker = "Завершено раундов с этим джокером",
-            ph_stat_consumable = "Количество использований карты",
-            ph_stat_voucher = "Количество покупок этого купона",
-            ph_demo_thanks_1 = "Спасибо, что играли",
-            ph_demo_thanks_2 = "В ДЕМО-ВЕРСИЮ BALATRO",
-            ph_game_over = "ИГРА ОКОНЧЕНА",
-            ph_you_win = "ПОБЕДА!",
-            ph_you_win_demo = "ВЫ ВЫИГРАЛИ В ДЕМО!",
-            ph_vouchers_redeemed = "Купоны, выкупленные в этой партии",
-            ph_no_vouchers = "В этой партии не были выкуплены купоны",
-            ph_defeat_this_blind_1 = "Победите этот блайнд,",
-            ph_defeat_this_blind_2 = "чтобы открыть его",
-            ph_click_confirm = "Нажмите ещё раз, чтобы подтвердить",
-            ph_choose_blind_1 = "Выберите",
-            ph_choose_blind_2 = "следующий блайнд",
-            ph_mr_bones = "Спасены Костлявым",
-            ph_score_at_least = "Минимум очков",
-            ph_all_poker_hand = "Все покерные комбинации",
-            ph_1_level = "+1 ур.",
-            ph_boss_disabled = "Босс отключён!",
-            ph_most_played = "{наиболее часто играемая рука}",
-            ph_defeat_the_boss = "Победите Босс-блайнд",
-            ph_score_furthest_ante = "Анте",
-            ph_score_furthest_round = "Раунд",
-            ph_score_hand = "Лучшая рука",
-            ph_score_poker_hand = "Наиболее часто играемая рука",
-            ph_score_new_collection = "Новые открытия",
-            ph_score_cards_played = "Сыгранные карты",
-            ph_score_cards_discarded = "Сброшенные карты",
-            ph_score_times_rerolled = "Обновления магазина",
-            ph_score_cards_purchased = "Купленные карты",
-            ph_unscored_hand = "Эта рука не принесёт очки",
-            ph_alert_debuff_confirm = "Нажмите «Сыграть» ещё раз, чтобы подтвердить",
-            ml_demo_thanks_message = {
-                "Добавляйте Balatro в список",
-                "желаемого Steam и подписывайтесь на",
-                "рассылку на playbalatro.com"
+        quips = {
+            dq_1 = {
+					"Ух! Надеюсь, у тебя", 
+					"осталось пару козырей", 
+					"в рукаве для", 
+					"последнего испытания!"
+			},
+            lq_1 = {
+					"Может, тебе", 
+					"лучше сыграть", 
+					"в пасьянс..."
+			},
+            lq_10 = {
+					"Вот так облом!"
+			},
+            lq_2 = {
+					"Какой неудачный", 
+					"расклад!"
+			},
+            lq_3 = {
+					"Время", 
+					"перетасовать карты и", 
+					"попробовать снова!"
+			},
+            lq_4 = {
+					"Знаешь,", 
+					"как говорится:", 
+					"казино всегда в выигрыше."
+			},
+            lq_5 = {
+					"Похоже, мы узнали,", 
+					"кто здесь", 
+					"настоящий джокер!"
+			},
+            lq_6 = {
+					"Ты что,", 
+					"тоже любишь блефовать?"
+			},
+            lq_7 = {
+					"Похоже,", 
+					"мы в дураках!"
+			},
+            lq_8 = {
+					"Будь у меня руки,", 
+					"я бы закрыл", 
+					"ими глаза!"
+			},
+            lq_9 = {
+					"Я буквально", 
+					"шут, а у тебя", 
+					"какое оправдание?"
+			},
+            wq_1 = {
+					"Великолепно!"
+			},
+            wq_2 = {
+					"Отличная", 
+					"работа!"
+			},
+            wq_3 = {
+					"Похоже, это", 
+					"был не блеф!"
+			},
+            wq_4 = {
+					"Как жаль, что", 
+					"фишки", 
+					"виртуальные..."
+			},
+            wq_5 = {
+					"Похоже, я неплохо", 
+					"тебя обучил!"
+			},
+            wq_6 = {
+					"Тебе удалось сыграть", 
+					"несколько хороших партий!"
+			},
+            wq_7 = {
+					"Хорошо,", 
+					"что я поставил", 
+					"на тебя!"
+			}
+        },
+        ranks = {
+            Ace = "Туз",
+            King = "Король",
+            Queen = "Дама",
+            Jack = "Валет",
+            ['10'] = "10-ка",
+            ['9'] = "9-ка",
+            ['8'] = "8-ка",
+            ['7'] = "7-ка",
+            ['6'] = "6-ка",
+            ['5'] = "5-ка",
+            ['4'] = "4-ка",
+            ['3'] = "3-ка",
+            ['2'] = "2-ка"
+        },
+        suits_plural = {
+            Spades = "Пик",
+            Hearts = "Червей",
+            Clubs = "Треф",
+            Diamonds = "Бубен"
+        },
+        suits_singular = {
+            Spades = "Пики",
+            Hearts = "Червы",
+            Clubs = "Трефы",
+            Diamonds = "Бубны"
+        },
+        tutorial = {
+            bb_1 = {
+                "Выбор {C:attention}Большого блайнда",
+                "принесёт тебе немного денег"
             },
-            ml_eternal = {
-                "Вечный",
-                "Нельзя продать",
-                "или уничтожить"
+            bb_2 = {
+                "Или ты можешь {C:attention}пропустить{} его,",
+                "чтобы получить {C:attention}жетон{}! Каждый",
+                "{C:attention}жетон{} обладает уникальным эффектом"
             },
-            ml_gold_seal_desc = {
-                "Золотая печать",
-                "возвращается в руку,",
-                "когда сыграна"
+            bb_3 = {
+                "Но следи за",
+                "{C:attention}Босс-блайндом{}. У него",
+                "есть способность, вокруг",
+                "которой нужно строить тактику."
             },
-            ml_crash_report_info = {
-                "Отчёты об ошибках будут отправлены разработчику,",
-                "чтобы уменьшить количество проблем в будущем.",
-                "Идентификационные или личные данные не отправляются."
+            bb_4 = {
+                "Если победишь его, то",
+                "{C:attention}Анте{} повысится, и все",
+                "{C:attention}блайнды{} станут сложнее"
             },
-            ml_play_discard_pos_opt = {
-                "Сбросить/Играть",
-                "Играть/Сбросить"
+            bb_5 = {
+                "Победи #1# {C:attention}Анте{}, чтобы выиграть.",
+                "Выбери свой путь!"
             },
-            ml_windowmode_opt = {
-                "Оконный",
-                "Полноэкранный",
-                "Безрамочный"
+            fh_1 = {
+                "Фишки зарабатываются путём",
+                "игры {C:attention}покерных комбинаций"
             },
-            ml_vsync_opt = {
-                "Верт. синхронизация: Вкл.",
-                "Верт. синхронизация: Выкл."
+            fh_2 = {
+                "Каждая {C:attention}покерная комбинация{} приносит",
+                "стартовое количество {C:blue}фишек,",
+                "умноженное на некий {C:red}множитель"
             },
-            ml_shadow_opt = {
-                "Вкл.",
-                "Выкл."
+            fh_3 = {
+                "Посмотреть {C:attention}покерные комбинации",
+                "ты можешь, нажав на {C:attention}«Детали партии»{}",
+                "наряду с другой информацией",
+                "о текущей партии"
             },
-            ml_smoothing_opt = {
-                "Выкл.",
-                "Вкл."
+            fh_4 = {
+                "Карты также дают",
+                "{C:blue}фишки{} при разыгрывании,",
+                "наведи курсор, чтобы посмотреть!"
             },
-            ml_bloom_opt = {
-                "Выкл.",
-                "Вкл."
+            fh_4_touch={
+                "Карты также дают",
+                "{C:blue}фишки{} при разыгрывании,",
+                "нажми и удерживай, чтобы посмотреть!",
             },
-            ml_card_stats = {
-                "Статистика",
-                "карты"
+            fh_5 = {
+                "Теперь выбери до",
+                "{C:attention}5{} карт, чтобы сыграть их,",
+                "и нажми {C:blue}«Сыграть руку»"
             },
-            ml_paste_seed = {
-                "Вставить",
-                "сид"
+            fh_5_touch={
+                "Теперь коснись до",
+                "{C:attention}5{} карт, чтобы сыграть их,",
+                "и нажми {C:blue}«Сыграть руку»",
             },
-            ml_disabled_seed = {
-                "Все новые открытия и",
-                "достижения будут отключены"
+            fh_6 = {
+                "Можно также {C:red}сбросить{}",
+                "до {C:attention}5{} выбранных карт,",
+                "чтобы попытаться сделать",
+                "руку ещё сильнее. Попробуй!"
             },
-            ml_edition_seal_enhancement_explanation = {
-                "У каждой игральной карты может быть",
-                "одно улучшение, издание и печать"
+            fh_7 = {
+                "Осторожно! У тебя",
+                "ограниченное количество {C:blue}рук",
+                "и {C:red}сбросов{} на раунд"
             },
-            ml_unlock_all_explanation = {
-                "ВНИМАНИЕ! Разблокировав полную коллекцию,",
-                "вы отключите достижения для этого профиля!"
+            fh_8 = {
+                "Набери {C:attention}300 фишек{}, прежде",
+                "чем у тебя закончатся {C:blue}руки,",
+                "чтобы выиграть в этом раунде.",
+                "Удачи!"
             },
-            ml_unlock_all_trophies = {
-                "ВНИМАНИЕ! Разблокировав полную коллекцию,",
-                "вы отключите трофеи для этого профиля!"
+            s_1 = {
+                "Замечательно! Теперь, когда",
+                "у тебя {E:1}полно{} {C:money}денег{},",
+                "ты можешь купить новые",
+                "карты в {C:attention}магазине"
             },
-            ['$'] = "$",
-            k_redeemed_ex = "Выкуплено!",
-            k_duplicated_ex = "Скопировано!",
-            k_no_room_ex = "Нет места!",
-            k_no_space_ex = "Нет места!",
-            k_no_other_jokers = "Нет других джокеров!",
-            k_plus_tarot = "+1 Таро",
-            k_plus_stone = "+1 камень",
-            k_plus_planet = "+1 планета",
-            k_plus_spectral = "+1 спектральная",
-            k_plus_joker = "+1 джокер",
-            k_active_ex = "Активно!",
-            k_level_up_ex = "Уровень повышен!",
-            k_upgrade_ex = "Улучшено!",
-            k_again_ex = "Ещё раз!",
-            k_val_up = "Стоимость выросла!",
-            k_reset = "Заново",
-            k_extinct_ex = "Исчезло!",
-			k_disabled_ex = "Ослаблено!",
-            k_safe_ex = "Уцелел!",
-            k_saved_ex = "Сохранено!",
-            k_swapped_ex = "Заменено!",
-            k_copied_ex = "Скопировано!",
-            k_melted_ex = "Растаяло!",
-            k_eaten_ex = "Съедено!",
-            k_drank_ex = "Выпито!",
-            k_eroded_ex = "Разрушено!",
+            s_10 = {
+                "Предлагаемые {C:attention}купоны{} меняются",
+                "после победы над",
+                "{C:attention}Босс-блайндом{}."
+            },
+            s_11 = {
+                "Также проверяй оба",
+                "{C:booster}бустерных набора{} в",
+                "каждом магазине. В них",
+                "полно полезностей!"
+            },
+            s_12 = {
+                "Перейдём к",
+                "{C:attention}следующему раунду{}."
+            },
+            s_2 = {
+                "Попробуй купить этого",
+                "симпатичного Дьявола"
+            },
+            s_2_touch={
+                "Попробуй купить этого",
+                "симпатичного Дьявола!",
+                "Перетащи его из магазина",
+                "в область {C:attention}КУПИТЬ{}",
+            },
+            s_3 = {
+                "Это один из {C:attention}#1#",
+                "{C:attention}джокеров{}, которых ты можешь добавить",
+                "в партию. Каждый {C:attention}джокер",
+                "делает что-то особенное"
+            },
+            s_4 = {
+                "Этот добавляет {C:red}+4 множ.{} к",
+                "каждой руке, которую ты играешь!"
+            },
+            s_5 = {
+                "Выбирай внимательно! Можно",
+                "держать только {C:attention}5 карт джокеров{}",
+                "одновременно"
+            },
+            s_6 = {
+                "Теперь купи другую",
+                "карту в {C:attention}магазине"
+            },
+            s_7 = {
+                "Эта карта {C:tarot}Таро{} —",
+                "{C:attention}расходник{}. Она",
+                "улучшит карты, которые ты",
+                "играешь! Придержи её."
+            },
+            s_8 = {
+                "У тебя может быть до",
+                "{C:attention}2 расходников{}",
+                "одновременно"
+            },
+            s_9 = {
+                "Если накопишь достаточно денег,",
+                "сможешь купить {C:attention}купон{}.",
+                "{C:attention}Купоны{} пассивно",
+                "улучшают текущую партию!"
+            },
+            sb_1 = {
+                "Привет! Меня зовут",
+                "{C:attention}Джимбо{}, я здесь, чтобы помочь",
+                "тебе научиться играть!"
+            },
+            sb_2 = {
+                "Твоя цель — зарабатывать",
+                "{C:blue}фишки{}, чтобы победить",
+                "вражеский {C:attention}блайнд"
+            },
+            sb_3 = {
+                "Это {C:blue}Малый блайнд{},",
+                "и тебе нужно всего",
+                "{C:attention}300 фишек{}, чтобы победить его."
+            },
+            sb_4 = {
+                "Выбери {C:blue}Малый блайнд,",
+                "чтобы начать раунд!"
+            },
+            sh_1 = {
+                "Когда получишь больше джокеров,",
+                "не забудь, что их можно менять местами.",
+                "{C:attention}Джокеры{} активируются",
+                "в порядке слева направо"
+            },
+            sh_2 = {
+                "Также не забывай",
+                "{C:attention}использовать{} расходники!"
+            },
+            sh_3 = {
+                "Выбери до {C:attention}2{} карт",
+                "в руке и нажми",
+                "{C:attention}«Использовать»{} на карте {C:tarot}Таро{},",
+                "чтобы улучшить их!"
+            },
+            sh_3_touch={
+                "Выбери до {C:attention}2{} карт",
+                "в руке и перетащи",
+                "карту {C:tarot}Таро{} в область {C:attention}ИСПОЛЬЗОВАТЬ{},",
+                "чтобы улучшить их!",
+            },
         },
         v_dictionary = {
             a_xmult = "X#1# множ.",
@@ -4003,189 +4300,5 @@ return {
                 "При победе над боссом {C:attention}#1#{} Анте, количество слотов джокера уменьшается до {C:attention}0"
             }
         },
-        quips = {
-            wq_1 = {"Великолепно!"},
-            wq_2 = {"Отличная", "работа!"},
-            wq_3 = {"Похоже, это", "был не блеф!"},
-            wq_4 = {"Как жаль, что", "фишки", "виртуальные..."},
-            wq_5 = {"Похоже, я неплохо", "тебя обучил!"},
-            wq_6 = {"Тебе удалось сыграть", "несколько хороших партий!"},
-            wq_7 = {"Хорошо,", "что я поставил", "на тебя!"},
-            lq_1 = {"Может, тебе", "лучше сыграть", "в пасьянс..."},
-            lq_2 = {"Какой неудачный", "расклад!"},
-            lq_3 = {"Время", "перетасовать карты и", "попробовать снова!"},
-            lq_4 = {"Знаешь,", "как говорится:", "казино всегда в выигрыше."},
-            lq_5 = {"Похоже, мы узнали,", "кто здесь", "настоящий джокер!"},
-            lq_6 = {"Ты что,", "тоже любишь блефовать?"},
-            lq_7 = {"Похоже,", "мы в дураках!"},
-            lq_8 = {"Будь у меня руки,", "я бы закрыл", "ими глаза!"},
-            lq_9 = {"Я буквально", "шут, а у тебя", "какое оправдание?"},
-            lq_10 = {"Вот так облом!"},
-            dq_1 = {"Ух! Надеюсь, у тебя", "осталось пару козырей", "в рукаве для", "последнего испытания!"}
-        },
-        tutorial = {
-            sb_1 = {
-                "Привет! Меня зовут",
-                "{C:attention}Джимбо{}, я здесь, чтобы помочь",
-                "тебе научиться играть!"
-            },
-            sb_2 = {
-                "Твоя цель — зарабатывать",
-                "{C:blue}фишки{}, чтобы победить",
-                "вражеский {C:attention}блайнд"
-            },
-            sb_3 = {
-                "Это {C:blue}Малый блайнд{},",
-                "и тебе нужно всего",
-                "{C:attention}300 фишек{}, чтобы победить его."
-            },
-            sb_4 = {
-                "Выбери {C:blue}Малый блайнд,",
-                "чтобы начать раунд!"
-            },
-            bb_1 = {
-                "Выбор {C:attention}Большого блайнда",
-                "принесёт тебе немного денег"
-            },
-            bb_2 = {
-                "Или ты можешь {C:attention}пропустить{} его,",
-                "чтобы получить {C:attention}жетон{}! Каждый",
-                "{C:attention}жетон{} обладает уникальным эффектом"
-            },
-            bb_3 = {
-                "Но следи за",
-                "{C:attention}Босс-блайндом{}. У него",
-                "есть способность, вокруг",
-                "которой нужно строить тактику."
-            },
-            bb_4 = {
-                "Если победишь его, то",
-                "{C:attention}Анте{} повысится, и все",
-                "{C:attention}блайнды{} станут сложнее"
-            },
-            bb_5 = {
-                "Победи #1# {C:attention}Анте{}, чтобы выиграть.",
-                "Выбери свой путь!"
-            },
-            fh_1 = {
-                "Фишки зарабатываются путём",
-                "игры {C:attention}покерных комбинаций"
-            },
-            fh_2 = {
-                "Каждая {C:attention}покерная комбинация{} приносит",
-                "стартовое количество {C:blue}фишек,",
-                "умноженное на некий {C:red}множитель"
-            },
-            fh_3 = {
-                "Посмотреть {C:attention}покерные комбинации",
-                "ты можешь, нажав на {C:attention}«Детали партии»{}",
-                "наряду с другой информацией",
-                "о текущей партии"
-            },
-            fh_4 = {
-                "Карты также дают",
-                "{C:blue}фишки{} при разыгрывании,",
-                "наведи курсор, чтобы посмотреть!"
-            },
-            fh_5 = {
-                "Теперь выбери до",
-                "{C:attention}5{} карт, чтобы сыграть их,",
-                "и нажми {C:blue}«Сыграть руку»"
-            },
-            fh_6 = {
-                "Можно также {C:red}сбросить{}",
-                "до {C:attention}5{} выбранных карт,",
-                "чтобы попытаться сделать",
-                "руку ещё сильнее. Попробуй!"
-            },
-            fh_7 = {
-                "Осторожно! У тебя",
-                "ограниченное количество {C:blue}рук",
-                "и {C:red}сбросов{} на раунд"
-            },
-            fh_8 = {
-                "Набери {C:attention}300 фишек{}, прежде",
-                "чем у тебя закончатся {C:blue}руки,",
-                "чтобы выиграть в этом раунде.",
-                "Удачи!"
-            },
-            sh_1 = {
-                "Когда получишь больше джокеров,",
-                "не забудь, что их можно менять местами.",
-                "{C:attention}Джокеры{} активируются",
-                "в порядке слева направо"
-            },
-            sh_2 = {
-                "Также не забывай",
-                "{C:attention}использовать{} расходники!"
-            },
-            sh_3 = {
-                "Выбери до {C:attention}2{} карт",
-                "в руке и нажми",
-                "{C:attention}«Использовать»{} на карте {C:tarot}Таро{},",
-                "чтобы улучшить их!"
-            },
-            s_1 = {
-                "Замечательно! Теперь, когда",
-                "у тебя {E:1}полно{} {C:money}денег{},",
-                "ты можешь купить новые",
-                "карты в {C:attention}магазине"
-            },
-            s_2 = {
-                "Попробуй купить этого",
-                "симпатичного Дьявола"
-            },
-            s_3 = {
-                "Это один из {C:attention}#1#",
-                "{C:attention}джокеров{}, которых ты можешь добавить",
-                "в партию. Каждый {C:attention}джокер",
-                "делает что-то особенное"
-            },
-            s_4 = {
-                "Этот добавляет {C:red}+4 множ.{} к",
-                "каждой руке, которую ты играешь!"
-            },
-            s_5 = {
-                "Выбирай внимательно! Можно",
-                "держать только {C:attention}5 карт джокеров{}",
-                "одновременно"
-            },
-            s_6 = {
-                "Теперь купи другую",
-                "карту в {C:attention}магазине"
-            },
-            s_7 = {
-                "Эта карта {C:tarot}Таро{} —",
-                "{C:attention}расходник{}. Она",
-                "улучшит карты, которые ты",
-                "играешь! Придержи её."
-            },
-            s_8 = {
-                "У тебя может быть до",
-                "{C:attention}2 расходников{}",
-                "одновременно"
-            },
-            s_9 = {
-                "Если накопишь достаточно денег,",
-                "сможешь купить {C:attention}купон{}.",
-                "{C:attention}Купоны{} пассивно",
-                "улучшают текущую партию!"
-            },
-            s_10 = {
-                "Предлагаемые {C:attention}купоны{} меняются",
-                "после победы над",
-                "{C:attention}Босс-блайндом{}."
-            },
-            s_11 = {
-                "Также проверяй оба",
-                "{C:booster}бустерных набора{} в",
-                "каждом магазине. В них",
-                "полно полезностей!"
-            },
-            s_12 = {
-                "Перейдём к",
-                "{C:attention}следующему раунду{}."
-            }
-        }
 	}
 }

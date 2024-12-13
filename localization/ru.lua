@@ -3401,21 +3401,29 @@ return {
                 ['1'] = "По умолчанию", 
                 ['2'] = "The Witcher",
 				["3"] = "Cyberpunk 2077",
+				["4"] = "Shovel Knight",
+                ["5"] = "Don’t Starve",
             },
             Hearts = {
                 ['1'] = "По умолчанию", 
                 ['2'] = "Among Us",
 				["3"] = "The Binding of Isaac",
+				["4"] = "Cult of the Lamb",
+                ["5"] = "Divinity Original Sin 2",
             },
             Clubs = {
                 ['1'] = "По умолчанию", 
                 ['2'] = "Vampire Survivors",
 				["3"] = "Slay the Spire",
+				["4"] = "Potion Craft",
+                ["5"] = "Warframe",
             },
             Diamonds = {
                 ['1'] = "По умолчанию", 
                 ['2'] = "Dave the Diver",
 				["3"] = "Stardew Valley",
+				["4"] = "Enter the Gungeon",
+                ["5"] = "1000xRESIST",
             },
         },		
         dictionary = {
@@ -4224,35 +4232,29 @@ return {
             },
         },
         v_text = {
-            ch_m_dollars = {
-                "Денег в начале партии: {C:money}$#1#"
+            ch_c_all_eternal = {
+                "Все джокеры в магазине становятся {C:eternal}Вечными{}"
             },
-            ch_m_hands = {
-                "Рук на раунд: {C:blue}#1#{}"
+            ch_c_chips_dollar_cap = {
+                "Количество {C:blue}фишек{} не может превысить количество {C:money}$"
             },
-            ch_m_discards = {
-                "Сбросов на раунд: {C:red}#1#{}"
+            ch_c_daily = {
+                "{E:1,s:1.2,C:red}Ежедневное испытание!"
             },
-            ch_m_reroll_cost = {
-                "Стоимость обновления магазина: {C:money}$#1#{}"
+            ch_c_debuff_played_cards = {
+                "Все {C:attention}сыгранные{} карты {C:attention}ослабляются{} после подсчёта"
             },
-            ch_m_joker_slots = {
-                "Слотов джокера: {C:attention}#1#{}"
+            ch_c_discard_cost = {
+                "Каждый сброс отнимает {C:money}$#1#{}"
             },
-            ch_m_consumable_slots = {
-                "Слотов для расходников: {C:attention}#1#{}"
+            ch_c_flipped_cards = {
+                "{C:green}1 из #1#{} карт тянется рубашкой вверх"
             },
-            ch_m_hand_size = {
-                "Стартовый размер руки: {C:attention}#1#{}"
+            ch_c_inflation = {
+                "Постоянное повышение цен на {C:money}$1{} при каждой покупке"
             },
-            ch_m_none = {
-                "{C:inactive}Нет"
-            },
-            ch_c_no_reward = {
-                "Все {C:attention}блайнды{} не дают денег в награду"
-            },
-            ch_c_no_reward_specific = {
-                "{C:attention}Малые и Большие блайнды{} не дают денег в награду"
+            ch_c_minus_hand_size_per_X_dollar = {
+                "{C:red}-1{} к размеру руки за каждые ваши {C:money}$#1#{}"
             },
             ch_c_no_extra_hand_money = {
                 "Оставшиеся {C:blue}руки{} больше не приносят деньги"
@@ -4260,45 +4262,48 @@ return {
             ch_c_no_interest = {
                 "Без денежных {C:attention}бонусов{} в конце раунда"
             },
-            ch_c_daily = {
-                "{E:1,s:1.2,C:red}Ежедневное испытание!"
+            ch_c_no_reward = {
+                "Все {C:attention}блайнды{} не дают денег в награду"
             },
-            ch_c_set_seed = {
-                "1 попытка с фиксированным сидом: {C:inactive}{Hidden}"
-            },
-            ch_c_chips_dollar_cap = {
-                "Количество {C:blue}фишек{} не может превысить количество {C:money}$"
-            },
-            ch_c_none = {
-                "{C:inactive}Нет"
+            ch_c_no_reward_specific = {
+                "{C:attention}Малые и Большие блайнды{} не дают денег в награду"
             },
             ch_c_no_shop_jokers = {
                 "Джокеры больше не появляются в {C:attention}магазине"
             },
-            ch_c_inflation = {
-                "Постоянное повышение цен на {C:money}$1{} при каждой покупке"
-            },
-            ch_c_discard_cost = {
-                "Каждый сброс отнимает {C:money}$#1#{}"
-            },
-            ch_c_all_eternal = {
-                "Все джокеры в магазине становятся {C:eternal}Вечными{}"
-            },
-            ch_c_flipped_cards = {
-                "{C:green}1 из #1#{} карт тянется рубашкой вверх"
-            },
-            ch_c_debuff_played_cards = {
-                "Все {C:attention}сыгранные{} карты {C:attention}ослабляются{} после подсчёта"
-            },
-            ch_c_minus_hand_size_per_X_dollar = {
-                "{C:red}-1{} к размеру руки за каждые ваши {C:money}$#1#{}"
+            ch_m_none = {
+                "{C:inactive}Нет"
             },
             ch_c_set_eternal_ante = {
                 "При победе над боссом {C:attention}#1#{} Анте, все джокеры становятся {C:attention}Вечными"
             },
             ch_c_set_joker_slots_ante = {
                 "При победе над боссом {C:attention}#1#{} Анте, количество слотов джокера уменьшается до {C:attention}0"
-            }
+            },
+            ch_c_set_seed = {
+                "1 попытка с фиксированным сидом: {C:inactive}{Hidden}"
+            },
+            ch_m_consumable_slots = {
+                "Слотов для расходников: {C:attention}#1#{}"
+            },
+            ch_m_discards = {
+                "Сбросов на раунд: {C:red}#1#{}"
+            },
+            ch_m_dollars={
+                "Деньги в начале партии: {C:money}$#1#",
+            },
+            ch_m_hand_size = {
+                "Стартовый размер руки: {C:attention}#1#{}"
+            },
+            ch_m_hands = {
+                "Рук на раунд: {C:blue}#1#{}"
+            },
+            ch_m_joker_slots = {
+                "Слотов джокера: {C:attention}#1#{}"
+            },
+            ch_c_none = {
+                "{C:inactive}Нет"
+            },
         },
 	}
 }

@@ -42,7 +42,10 @@ RU:
 **WINEDLLOVERRIDES="version=n,b" %command%**
 
 ## Как установить (на Mac):
-- Пока неизвестно, за неимением Mac'а, если кто разобрался - напишите мне.
+Файлы из архива распаковать по пути: ```/Users/Пользователь/Library/Application Support/Balatro```
+[С офф. страницы Lovely-инжектора](https://github.com/ethangreen-dev/lovely-injector/releases) скачать последний релиз для Mac, файлы ```liblovely.dylib``` и ```run_lovely.sh``` закинуть в папку с игрой, запустить игру через ```run_lovely.sh```.
+
+[Подробная инструкция на английском](https://github.com/ethangreen-dev/lovely-injector?tab=readme-ov-file#mac)
 
 ## Файловая структура мода:
 - ```version.dll``` : Lovely-инжектор (необходим для применения написанных вручную патчей интерфейса, а также корректных параметров для шрифта)

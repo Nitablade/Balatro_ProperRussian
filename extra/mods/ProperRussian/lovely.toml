@@ -264,7 +264,7 @@ payload = '''
                UIBox_button({label = {'Twitch'}, button = 'nitablade_twitch'})
 			}} or nil,
 			{n=G.UIT.R, config={align = "cm", padding = 0.2}, nodes={
-              {n=G.UIT.T, config={text = "Текущая версия локализации: 1.1.5", scale = text_scale*0.5, colour = G.C.UI.TEXT_LIGHT, shadow = true}},
+              {n=G.UIT.T, config={text = "Текущая версия локализации: 1.1.8", scale = text_scale*0.5, colour = G.C.UI.TEXT_LIGHT, shadow = true}},
 		  '''
 overwrite = false
 match_indent = true
@@ -275,6 +275,6 @@ match_indent = true
 target = "globals.lua"
 pattern = "VERSION = VERSION..'-FULL'"
 position = "after"
-payload = "VERSION = VERSION..' (Локализация от Nitablade, v1.1.7)'"
+payload = "VERSION = VERSION..' (Локализация от Nitablade, v1.1.8)'"
 overwrite = false
 match_indent = true

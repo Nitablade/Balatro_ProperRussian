@@ -230,6 +230,14 @@ payload = '''label = localize('Diamonds', 'suits_singular'),'''
 overwrite = true
 match_indent = true
 
+# Замена форматирования разрядов чисел с запятых на пробелы (1,000 => 1 000)
+[[patches]]
+[patches.regex]
+target = "functions/misc_functions.lua"
+pattern = 'gsub\("\(%d%d%d\)"\, "%1,"\):gsub\("\,\$"\, ""\)'
+position = "at"
+payload = 'gsub("(%d%d%d)", "%1 "):gsub(" $", "")'
+
 # Добавление ссылки на локализацию в меню Авторы
 [[patches]]
 [patches.pattern]
